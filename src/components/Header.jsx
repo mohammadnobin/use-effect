@@ -8,7 +8,11 @@ import cartimg from '../assets/cartimg.png'
 
 const Header = () => {
   let [catagorishow ,setcatagorishow] = useState(false)
+  let [cartshow ,setcatrshow] = useState(false)
+  let [usershow ,setusershow] = useState(false)
   let catagoriRef = useRef()
+  let cartRef = useRef()
+  let userRef = useRef()
   useEffect(()=>{
     window.addEventListener("click",(e)=>{
       if (catagoriRef.current.contains(e.target) == true) {
@@ -16,8 +20,18 @@ const Header = () => {
       } else{
         setcatagorishow(false)
       }
-    })
-  },[catagorishow])
+      if (cartRef.current.contains(e.target) == true) {
+        setcatrshow(!cartshow)
+      } else{
+        setcatrshow(false)
+      }
+      if (userRef.current.contains(e.target) == true) {
+        setusershow(!usershow)
+      } else{
+        setusershow(false)
+      }
+    });
+  },[catagorishow,cartshow,usershow])
 
 
   return (
@@ -56,9 +70,10 @@ const Header = () => {
           </div>
           <div className="w-1/4">
             <div className="relative flex justify-end gap-x-2  lg:gap-5"> 
-              <div className="flex relative">
+              <div ref={userRef} className="flex relative">
                 <FaUser className="text-xl cursor-pointer"/>
                 <MdOutlineArrowDropDown className="text-xl cursor-pointer" />
+                {usershow && 
                 <div className="absolute top-9  right-0 text-center w-[200px]">
                   <div className="">
                     <button className="w-[196px] py-[16px] bg-white hover:bg-black duration-500 hover:text-white text-black font-dm-sans font-bold text-base mb-1 ">My Account</button>
@@ -67,11 +82,14 @@ const Header = () => {
                   <button className="w-[196px] py-[16px] bg-white hover:bg-black duration-500 hover:text-white text-black font-dm-sans font-bold text-base ">Log Out</button>
                   </div>
                 </div>
+                }
+                
               </div>
-              <div className="">
+              <div ref={cartRef} className="">
                 <FaShoppingCart className="text-xl cursor-pointer" />
               </div>
-              <div className="absolute hidden top-7 right-0 w-[360px]  bg-white">
+              {cartshow &&
+              <div className="absolute top-7 right-0 w-[360px]  bg-white">
                 <div className="flex items-center justify-around py-[20px] bg-[#F5F5F3]">
                   <div className="w-[80px]">
                     <img src={cartimg} alt="" />
@@ -98,6 +116,8 @@ const Header = () => {
                   </div>
                 </div>
               </div>
+              }
+              
             </div>
           </div>
         </div>
