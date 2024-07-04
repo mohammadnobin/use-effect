@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <section id='navber' className='bg-white z-[999] shadow-xl'>
     <Container>
-        <div className="flex py-[32px] lg:justify-normal items-center justify-between  flex-wrap">
+        <div className="flex py-[32px] lg:justify-normal items-center justify-between  flex-wrap lg:px-0 md:px-0  sm:px-0 px-7">
             <div className="w-1/4">
                 <img className='w-[65.01px]' src={navlogo} alt="" />
             </div>

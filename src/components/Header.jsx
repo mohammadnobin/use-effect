@@ -7,12 +7,12 @@ import { RiCloseLargeFill } from "react-icons/ri";
 import cartimg from '../assets/cartimg.png'
 
 const Header = () => {
-  let [catagorishow ,setcatagorishow] = useState(false)
-  let [cartshow ,setcatrshow] = useState(false)
-  let [usershow ,setusershow] = useState(false)
-  let catagoriRef = useRef()
-  let cartRef = useRef()
-  let userRef = useRef()
+  let [catagorishow ,setcatagorishow] = useState(false);
+  let [cartshow ,setcatrshow] = useState(false);
+  let [usershow ,setusershow] = useState(false);
+  let catagoriRef = useRef();
+  let cartRef = useRef();
+  let userRef = useRef();
   useEffect(()=>{
     window.addEventListener("click",(e)=>{
       if (catagoriRef.current.contains(e.target) == true) {
@@ -31,11 +31,11 @@ const Header = () => {
         setusershow(false)
       }
     });
-  },[catagorishow,cartshow,usershow])
+  },[catagorishow,cartshow,usershow]);
 
 
   return (
-    <section id="header" className="bg-[#F5F5F3] py-[25px]">
+    <section id="header" className="bg-[#F5F5F3] py-[25px] lg:px-0 md:px-0  sm:px-0 px-7">
       <Container>
         <div className="flex items-center gap-4">
           <div className="w-1/4 relative">
