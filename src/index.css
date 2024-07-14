@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* --------------------Slick active slider start----------------------- */
+.slick-dots .slick-active div{
+    border-color:#222 !important;
+    color: #222 !important;
+}
+/* --------------------Slick active slider end----------------------- */

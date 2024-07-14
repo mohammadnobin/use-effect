@@ -35,9 +35,9 @@ const Header = () => {
 
 
   return (
-    <section id="header" className="bg-[#F5F5F3] py-[25px] lg:px-0 md:px-0  sm:px-0 px-7">
+    <section id="header" className="bg-[#F5F5F3] py-[25px] lg:px-7 md:px-7  sm:px-0 px-7">
       <Container>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center lg:gap-4">
           <div className="w-1/4 relative">
             <div ref={catagoriRef} className="flex items-center">
               <div className="">
@@ -48,7 +48,7 @@ const Header = () => {
               </div>
             </div>
             {catagorishow &&
-                  <div className="absolute  top-10 lg:top-7  left-0 w-[300px] z-10 bg-[#262626] ">
+                  <div  className="absolute  top-10 lg:top-7  left-0 w-[300px] z-10 bg-[#262626] ">
                   <ul>
                     <li className="font-dm-sans text-[#b1adad] font-normal text-base hover:pl-[31px] pl-[21px] py-[16px] duration-500 cursor-pointer hover:text-white ease-in-out border-b-2 border-[#6b6969]">Accesories</li>
                     <li className="font-dm-sans text-[#b1adad] font-normal text-base hover:pl-[31px] pl-[21px] py-[16px] duration-500 cursor-pointer hover:text-white ease-in-out border-b-2 border-[#6b6969]">Furniture</li>
@@ -62,9 +62,9 @@ const Header = () => {
           </div>
           <div className="w-2/4">
             <div className="relative">
-              <input className="w-full h-[50px] placeholder:text-[#C4C4C4] text-black pl-3" type="text" placeholder="Search Products" />
-              <div className="absolute top-[50%] translate-y-[-50%] right-5 ">
-                 <FaSearch className="text-xl cursor-pointer" /> 
+              <input className="w-full h-[50px] placeholder:text-[#C4C4C4] text-black lg:pl-3 pl-1" type="text" placeholder="Search Products" />
+              <div className="absolute top-[50%] translate-y-[-50%] right-2 lg:right-5 ">
+                 <FaSearch className=" cursor-pointer" /> 
               </div>
             </div>
           </div>
@@ -74,9 +74,9 @@ const Header = () => {
                 <FaUser className="text-xl cursor-pointer"/>
                 <MdOutlineArrowDropDown className="text-xl cursor-pointer" />
                 {usershow && 
-                <div className="absolute top-9  right-0 text-center w-[200px]">
+                <div className="absolute z-50 top-9  right-0 text-center w-[200px]">
                   <div className="">
-                    <button className="w-[196px] py-[16px] bg-white hover:bg-black duration-500 hover:text-white text-black font-dm-sans font-bold text-base mb-1 ">My Account</button>
+                    <button className="w-[196px] py-[16px] bg-white hover:bg-black duration-500 hover:text-white text-black font-dm-sans font-bold text-base mb-1 "> My Account</button>
                   </div>
                   <div className="">
                   <button className="w-[196px] py-[16px] bg-white hover:bg-black duration-500 hover:text-white text-black font-dm-sans font-bold text-base ">Log Out</button>
@@ -89,7 +89,7 @@ const Header = () => {
                 <FaShoppingCart className="text-xl cursor-pointer" />
               </div>
               {cartshow &&
-              <div className="absolute top-7 right-0 w-[360px]  bg-white">
+              <div className="absolute z-50 top-7 w-[350px] right-[-25px] lg:right-0 lg:w-[360px]  bg-white">
                 <div className="flex items-center justify-around py-[20px] bg-[#F5F5F3]">
                   <div className="w-[80px]">
                     <img src={cartimg} alt="" />
@@ -108,10 +108,10 @@ const Header = () => {
                   </div>
                   <div className="flex justify-around">
                     <div className="">
-                      <button className="py-[16px] px-[41px] border-black border-2 hover:bg-black hover:text-white duration-500 ">View Card</button>
+                      <button className="lg:py-[16px] py-2 px-5 lg:px-[41px] border-black border-2 hover:bg-black hover:text-white duration-500 ">View Card</button>
                     </div>
                     <div className="">
-                      <button className="py-[16px] px-[43px] border-black border-2 hover:bg-black hover:text-white duration-500 ">Checkout</button>
+                      <button className="lg:py-[16px] py-2 px-5 lg:px-[41px] border-black border-2 hover:bg-black hover:text-white duration-500  ">Checkout</button>
                     </div>
                   </div>
                 </div>

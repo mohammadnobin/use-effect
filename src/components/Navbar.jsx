@@ -8,19 +8,19 @@ import navlogo from '../assets/navlogo.png'
 const Navbar = () => {
     let [show, setshow] = useState(true)
   return (
-    <section id='navber' className='bg-white z-[999] shadow-xl'>
+    <section id='navber' className='shadow-xl'>
     <Container>
-        <div className="flex py-[32px] lg:justify-normal items-center justify-between  flex-wrap lg:px-0 md:px-0  sm:px-0 px-7">
+        <div className="flex py-[32px] relative z-20  lg:justify-normal items-center justify-between  flex-wrap lg:px-7 md:px-7  sm:px-0 px-7">
             <div className="w-1/4">
                 <img className='w-[65.01px]' src={navlogo} alt="" />
             </div>
             <div className="w-2/4">
-                <ul className={`absolute lg:flex justify-center text-center gap-x-[40px] duration-300 text-white lg:text-[#767676] left-0 lg:bg-transparent  lg:static ${show == true ? "top-[-220px] w-full bg-black z-10" : "top-20 left-0 z-10 w-full bg-black"}`}>
-                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base duration-200 hover:cursor-pointer'>Home</li>
-                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base duration-200 hover:cursor-pointer'>Shop</li>
-                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base duration-200 hover:cursor-pointer'>About</li>
-                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base duration-200 hover:cursor-pointer'>Contact</li>
-                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base duration-200 hover:cursor-pointer'>Journal</li>
+                <ul className={`absolute  lg:flex justify-center text-center gap-x-[40px] duration-300 text-white lg:text-[#767676] left-0 lg:bg-transparent lg:static ${show == true ? "top-[91px] lg:h-full  h-0 overflow-hidden  w-full " : "top-[91px] h-[200px] lg:h-full left-0 w-full bg-black"}`} >
+                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>Home</li>
+                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>Shop</li>
+                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>About</li>
+                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>Contact</li>
+                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>Journal</li>
                 </ul>
             </div>
             <div onClick={()=>setshow(!show)} className="lg:hidden cursor-pointer">
@@ -34,3 +34,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+// className={`absolute  lg:flex justify-center text-center gap-x-[40px] duration-300 text-white lg:text-[#767676] left-0 lg:bg-transparent lg:static ${show == true ? "top-20 hidden w-full bg-black " : "top-20 left-0  block  w-full bg-black"}`} 
