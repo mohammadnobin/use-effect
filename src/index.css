@@ -8,3 +8,16 @@
     color: #222 !important;
 }
 /* --------------------Slick active slider end----------------------- */
+
+.nothing{
+    animation: ami 0.5s;
+    -webkit-animation: ami 0.5s;
+}
+@keyframes ami{
+    0%{
+        top: 30px;
+    }
+    100%{
+        top: -0px;
+    }
+}
