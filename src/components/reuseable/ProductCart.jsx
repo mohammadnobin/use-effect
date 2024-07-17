@@ -6,7 +6,7 @@ import { FaShoppingCart } from "react-icons/fa";
 const ProductCart = (props) => {
   return (
     <>
-      <div className="group flex  flex-col !w-[90%] !ml-[20px]">
+      <div className="group flex  flex-col !w-[90%] mx-auto lg:!ml-[20px]">
         <div className="relative bg-[#f2f2f2] mb-[24px] ">
           <div className="absolute top-[20px] left-[20px]">
             <h4 className="py-[9px] px-[32px] bg-black text-white">
