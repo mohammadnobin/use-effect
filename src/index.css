@@ -21,3 +21,38 @@
         top: -0px;
     }
 }
+.back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 999;
+    font-size:26px;
+}
+.back-to-top-button{
+    background-color:black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+}
+@media (min-width: 992px) { 
+.my_navber a.active{
+    color:black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+}
+@media (max-width: 991px) { 
+    .my_navber a.active{
+        color: #b3b7bd;
+        font-weight: bold;
+        border-bottom: 2px solid #b3b7bd;
+    }
+    }
+      
+  

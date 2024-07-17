@@ -1,16 +1,9 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useContext } from "react";
 import Container from "./Container";
 import Slider from "react-slick";
-import { FaHeart } from "react-icons/fa";
-import { TfiReload } from "react-icons/tfi";
-import { FaShoppingCart } from "react-icons/fa";
-
 import { FaLongArrowAltLeft,FaLongArrowAltRight  } from "react-icons/fa";
-import ProductCart from "../reuseable/ProductCart";
-import { CgLogIn } from "react-icons/cg";
-
-
+import { ApiData } from "./ContextApi";
+import ProductCart from "./reuseable/ProductCart";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -32,6 +25,7 @@ function SamplePrevArrow(props) {
 }
 
 const NewArrivals = () => {
+  let data = useContext(ApiData)
   var settings = {
     infinite: true,
     arrows: true,
@@ -72,15 +66,6 @@ const NewArrivals = () => {
     ]
   };
 
-  let [info, setinfo] = useState([]);
-  let getData = () => {
-    axios.get("https://dummyjson.com/products").then((response) => {
-      setinfo(response.data.products);
-    });
-  };
-  useEffect(() => {
-    getData();
-  }, []);
 
   return (
     <section className="">
@@ -91,7 +76,7 @@ const NewArrivals = () => {
           </h2>
         </div>
         <Slider {...settings}>
-          {info.map((item) => (
+          {data.map((item) => (
             <ProductCart key={item.id} discount={item.discountPercentage} thumbnail={item.thumbnail} title={item.title} price={item.price} />
           ))}
         </Slider>

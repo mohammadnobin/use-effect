@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import "slick-carousel/slick/slick.css";
+import { ContextApi } from './components/ContextApi.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <ContextApi>
     <App />
-  </React.StrictMode>,
+  </ContextApi>,
 )
