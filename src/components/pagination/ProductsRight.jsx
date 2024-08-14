@@ -84,7 +84,7 @@ const ProductsRight = ({onChilData,cateFilter}) => {
         {cateFilter.length > 0 ?
         <>
         
-                 <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"} ${show ? "" : "h-[880px] overflow-hidden " } `}>
+                 <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"} ${show ? "" : "h-[967px] overflow-hidden " } `}>
                  {cateFilter.map((item,i) => (
                    <ProductCart
                    key={i}
@@ -98,7 +98,7 @@ const ProductsRight = ({onChilData,cateFilter}) => {
                  ))}
                </div>
                <div onClick={handleshow} className="cursor-pointer mt-[50px] font-dm-sans text-lg font-semibold leading-[20px]">
-                {show ? (<span>Hide</span>) : (<span>Show...</span>)}
+                {show ? (<span>Hide</span>) : (<span>Show more...</span>)}
                </div>
         </>
          :
