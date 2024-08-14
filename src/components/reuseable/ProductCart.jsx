@@ -2,18 +2,24 @@ import React from "react";
 import { FaHeart } from "react-icons/fa";
 import { TfiReload } from "react-icons/tfi";
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+
 
 const ProductCart = (props) => {
   return (
     <>
       <div className="group flex  flex-col !w-[90%] mx-auto lg:!ml-[20px]">
+       
         <div className="relative bg-[#f2f2f2] mb-[24px] ">
           <div className="absolute top-[20px] left-[20px]">
             <h4 className="py-[9px] px-[32px] bg-black text-white">
                - {props.discount} %
             </h4>
           </div>
+          <Link to={`/shoppage/${props.id}`}>
           <img className="w-full" src={props.thumbnail} alt="" />
+          </Link>
           <div className="absolute text-right bg-[#FFFFFF] w-full duration-500 ease-in-out transition-all bottom-0 h-0 group-hover:h-[160px] overflow-hidden right-0  pr-[31px] ">
             <div className="py-[30px] ">
               <div className="">
@@ -61,6 +67,7 @@ const ProductCart = (props) => {
             </div>
           </div>
         </div>
+        
         <div className="flex justify-between">
           <h4 className="font-dm-sans font-bold text-xl leading-[26px] text-[#262626]">
             {props.title}

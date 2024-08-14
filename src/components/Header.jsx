@@ -15,7 +15,7 @@ const Header = () => {
   let userRef = useRef();
   useEffect(()=>{
     window.addEventListener("click",(e)=>{
-      if (catagoriRef.current.contains(e.target) == true) {
+      if (catagoriRef.current.contains(e.target)) {
         setcatagorishow(!catagorishow)
       } else{
         setcatagorishow(false)
@@ -49,7 +49,7 @@ const Header = () => {
             </div>
             {catagorishow &&
                   <div  className="absolute  top-10 lg:top-7  left-0 w-[300px] z-10 bg-[#262626] ">
-                  <ul>
+                  <ul onClick={()=>setcatagorishow(false)}>
                     <li className="font-dm-sans text-[#b1adad] font-normal text-base hover:pl-[31px] pl-[21px] py-[16px] duration-500 cursor-pointer hover:text-white ease-in-out border-b-2 border-[#6b6969]">Accesories</li>
                     <li className="font-dm-sans text-[#b1adad] font-normal text-base hover:pl-[31px] pl-[21px] py-[16px] duration-500 cursor-pointer hover:text-white ease-in-out border-b-2 border-[#6b6969]">Furniture</li>
                     <li className="font-dm-sans text-[#b1adad] font-normal text-base hover:pl-[31px] pl-[21px] py-[16px] duration-500 cursor-pointer hover:text-white ease-in-out border-b-2 border-[#6b6969]">Electronics</li>

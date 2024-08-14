@@ -10,6 +10,9 @@ const SpeacialOffers = () => {
   return (
     <section id="" className="pb-[106px]">
       <Container>
+      <div className="pb-[48px]">
+                <h2 className='font-dm-sans text-center lg:text-left font-bold text-[39px] leading-[50px] text-[#262626] '>Special Offers</h2>
+        </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-4">
           <ProductCart
             price="50"

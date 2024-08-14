@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from './Container'
 import navlogo from '../assets/navlogo.png'
-import { FaFacebookF,FaLinkedinIn,FaInstagram   } from "react-icons/fa";
+import { FaFacebookF,FaLinkedinIn,FaInstagram} from "react-icons/fa";
 
 
 const Fotter = () => {

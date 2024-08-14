@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+
+::selection {
+	background: #444;
+	color: #fff;
+	text-shadow: none;
+}
 /* --------------------Slick active slider start----------------------- */
 .slick-dots .slick-active div{
     border-color:#222 !important;
     color: #222 !important;
 }
 /* --------------------Slick active slider end----------------------- */
-
 .nothing{
     animation: ami 0.5s;
     -webkit-animation: ami 0.5s;
@@ -28,6 +33,7 @@
     z-index: 999;
     font-size:26px;
 }
+
 .back-to-top-button{
     background-color:black;
     color: white;

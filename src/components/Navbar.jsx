@@ -3,7 +3,7 @@ import Container from './Container'
 import { FaBars } from "react-icons/fa6";
 import { RiCloseLargeFill } from "react-icons/ri";
 import navlogo from '../assets/navlogo.png'
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -19,31 +19,34 @@ const Navbar = () => {
     });
 
 
+
   return (
     <section id='navber' className={`shadow-xl my_navber  ${active ? " text-black fixed z-[999] nothing w-full duration-300 bg-[#b3b7bd]" :""}`}>
-    <Container>
-        <div className="flex py-[32px] relative z-20  lg:justify-normal items-center justify-between  flex-wrap lg:px-7 md:px-7  sm:px-0 px-7">
+      <div className="relative z-50">
+        <Container>
+        <div className="flex py-[32px] lg:justify-normal items-center justify-between  flex-wrap lg:px-7 md:px-7  sm:px-0 px-7">
             <div className="w-1/4">
+            <Link to="/">
                 <img className='w-[65.01px]' src={navlogo} alt="" />
+            </Link>
             </div>
             <div className="w-2/4">
-                <ul className={`absolute  lg:flex justify-center text-center gap-x-[40px] duration-300 text-white lg:text-[#767676] left-0 lg:bg-transparent lg:static ${show == true ? "top-[91px] lg:h-full  h-0 overflow-hidden  w-full " : "top-[91px] h-[200px] lg:h-full left-0 w-full overflow-hidden bg-black"} ${active ? "lg:text-black font-bold" : ""}`} 
-                onClick={() =>setshow(true)}
+                <ul className={`absolute  lg:flex justify-center text-center gap-x-[40px] duration-300 text-white lg:text-[#767676] left-0 lg:bg-transparent lg:static ${show == true ? "top-[90px] lg:h-full left-0  h-0 overflow-hidden  w-full " : "top-[90px] h-[200px] lg:h-full left-0 w-full overflow-hidden bg-black"} ${active ? "lg:text-black font-bold" : ""}`}
                 >
-                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold lg:hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>
-                    <NavLink to="/" >Home</NavLink>
+                   <li className='py-2 lg:py-0 font-dm-sans hover:font-bold lg:hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer '>
+                    <NavLink   onClick={() =>setshow(true)} to="/" >Home</NavLink>
                    </li>
                    <li className='py-2 lg:py-0 font-dm-sans hover:font-bold lg:hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>
-                    <NavLink to="/shoppage" >Shop</NavLink>
+                    <NavLink   onClick={() =>setshow(true)} to="/shoppage" >Shop</NavLink>
                    </li>
                    <li className='py-2 lg:py-0 font-dm-sans hover:font-bold lg:hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>
-                    <NavLink to="/aboutpage" >About</NavLink>
+                    <NavLink   onClick={() =>setshow(true)} to="/aboutpage" >About</NavLink>
                    </li>
                    <li className='py-2 lg:py-0 font-dm-sans hover:font-bold lg:hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>
-                    <NavLink to="/contactspage" >Contact</NavLink>
+                    <NavLink   onClick={() =>setshow(true)} to="/contactspage" >Contact</NavLink>
                    </li>
                    <li className='py-2 lg:py-0 font-dm-sans hover:font-bold lg:hover:text-[#262626] text-base lg:duration-200 hover:cursor-pointer'>
-                    <NavLink to="/journalpage" >Journal</NavLink>
+                    <NavLink   onClick={() =>setshow(true)} to="/journalpage" >Journal</NavLink>
                    </li>
                 </ul>
             </div>
@@ -53,6 +56,8 @@ const Navbar = () => {
             </div>
         </div>
     </Container>
+      </div>
+    
     </section>
   )
 }

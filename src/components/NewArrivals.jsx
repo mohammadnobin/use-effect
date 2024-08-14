@@ -76,8 +76,10 @@ const NewArrivals = () => {
           </h2>
         </div>
         <Slider {...settings}>
-          {data.map((item) => (
-            <ProductCart key={item.id} discount={item.discountPercentage} thumbnail={item.thumbnail} title={item.title} price={item.price} />
+          
+          {data.map((item,i) => (
+            <ProductCart key={i} discount={item.discountPercentage} thumbnail={item.thumbnail} title={item.title} price={item.price} id={item.id} />
+
           ))}
         </Slider>
       </Container>
