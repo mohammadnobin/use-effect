@@ -1,10 +1,9 @@
 import React from 'react'
 
 const Pagination = ({pageNumber,paginate,next,prev,currentPage}) => {
-
     return (
         <>
-            <div className='flex justify-end'>
+            <div className='ml-4'>
                 <nav aria-label="Page navigation example">
                     <ul className="inline-flex -space-x-px text-sm cursor-pointer">
                         <li>
@@ -13,7 +12,7 @@ const Pagination = ({pageNumber,paginate,next,prev,currentPage}) => {
                         </li>
                         {pageNumber.map((item,i)=>(
                         <li onClick={()=>paginate(item)} key={i}>
-                            <a className={currentPage == i + 1 ?"flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-gray-800 dark:bg-gray-800" :"flex items-center justify-center px-3 h-8 text-sm font-medium  border-gray-900 border-[1px] hover:bg-gray-900 hover:text-white " }>{item + 1}</a>
+                            <a className={currentPage == i + 1 ?"flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-gray-800 " :"flex items-center justify-center px-3 h-8 text-sm font-medium  border-gray-900 border-[1px] hover:bg-gray-900 hover:text-white " }>{item + 1}</a>
                         </li>
                         ))}
                         <li>

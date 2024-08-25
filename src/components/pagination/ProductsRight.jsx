@@ -1,5 +1,5 @@
 import React, { useContext,useEffect,useState } from "react";
-import { FaList, FaMinus, FaPlus } from "react-icons/fa";
+import { FaList } from "react-icons/fa";
 import { BiSolidCategory } from "react-icons/bi";
 import ProductCart from "../reuseable/ProductCart";
 import { ApiData } from "../ContextApi";
@@ -7,16 +7,43 @@ import Pagination from "./Pagination";
 
 const ProductsRight = ({onChilData,cateFilter}) => {
   let data = useContext(ApiData)
-  let [show, setShow] = useState(false)
   let [currentPage, setCurrentpage] = useState(1)
   let [parPage, setparpage] = useState(6)
   let [activeMulti,setActiveMulti] = useState("")
   let lastpage  = currentPage * parPage
   let firstPage = lastpage - parPage
   let allPage = data.slice(firstPage, lastpage)
+
+
+  let [pagineShow, setPagineShow] = useState(true)
+  let [currentFilter, setcurrentFilter] = useState(1)
+  let [perFilter, setParFilter] = useState(6)
+  let lastFilter = currentFilter * perFilter
+  let firstFilter = lastFilter - perFilter
+  let allFilter = cateFilter.slice(firstFilter,lastFilter)
+
+  let filterNumber = []
+  for (let i = 0; i < cateFilter.length / perFilter; i++) {
+    filterNumber.push(i)
+  }
+
+  let paginate2 =(filterNumber)=>{
+    setcurrentFilter(filterNumber + 1)
+  }
+   let next2 = ()=>{
+    if (currentFilter < filterNumber.length) {
+      setcurrentFilter((state)=> state  + 1)
+    }
+   }
+   let prev2 = ()=>{
+    if (currentFilter > 1) {
+      setcurrentFilter((state)=> state - 1)
+    }
+   }
+
   useEffect(() => {
     onChilData(data);
-    }, [data,onChilData]);
+    }, [data,onChilData,cateFilter]);
   let pageNumber = []
   for (let i = 0; i < data.length / parPage; i++) {
     pageNumber.push(i)
@@ -36,14 +63,11 @@ const ProductsRight = ({onChilData,cateFilter}) => {
    }
    let handleShowShop = (e) => {
     setparpage(e.target.value)
+    setParFilter(e.target.value)
    }
    let hanldleActive = ()=>{
     setActiveMulti("active")
    }
-   let handleshow = ()=>{
-    setShow(!show)
-   }
-   console.log(show)
 
   return (
     <>
@@ -83,9 +107,8 @@ const ProductsRight = ({onChilData,cateFilter}) => {
         </div>
         {cateFilter.length > 0 ?
         <>
-        
-                 <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"} ${show ? "" : "h-[967px] overflow-hidden " } `}>
-                 {cateFilter.map((item,i) => (
+                 <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"}  `}>
+                 {allFilter.map((item,i) => (
                    <ProductCart
                    key={i}
                      discount={item.discountPercentage}
@@ -94,14 +117,21 @@ const ProductsRight = ({onChilData,cateFilter}) => {
                      price={item.price}
                      id={item.id}
                    />
-
                  ))}
                </div>
-               <div onClick={handleshow} className="cursor-pointer mt-[50px] font-dm-sans text-lg font-semibold leading-[20px]">
-                {show ? (<span>Hide</span>) : (<span>Show more...</span>)}
-               </div>
+               {pagineShow ? cateFilter.length > 6 && 
+               <div className="flex justify-between items-center mt-[50px]">
+        <Pagination pageNumber={filterNumber} paginate={paginate2} next={next2} prev={prev2} currentPage={currentFilter} />
+        <div className="">
+          <h4 className="font-dm-sans text-sm leading-[30px] font-normal text-[#767676]">Products from 1 to 6 of 30</h4>
+        </div>
+         </div>
+         :
+         <div className=""></div>   
+               }
         </>
          :
+         <>
         <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"} `}>
           {allPage.map((item,i) => (
 
@@ -115,11 +145,19 @@ const ProductsRight = ({onChilData,cateFilter}) => {
             />
           ))}
         </div>
-         }
+         <div className="flex justify-between items-center mt-[50px]">
         <Pagination pageNumber={pageNumber} paginate={paginate} next={next} prev={prev} currentPage={currentPage} />
+        <div className="">
+          <h4 className="font-dm-sans text-sm leading-[30px] font-normal text-[#767676]">Products from 1 to 6 of 30</h4>
+        </div>
+         </div>
+         </>
+         }
       </div>
     </>
   );
 };
 
 export default ProductsRight;
+
+

@@ -38,7 +38,7 @@ const Productsleft = ({dataFromChild}) => {
           className="flex justify-between items-center pb-[35px] cursor-pointer"
         >
           <h3 className="font-dm-sans font-bold text-xl leading-[26px]  ">
-            Sho by Category
+            Shop by Category
           </h3>
           {cshow ? (
             <span>
