@@ -5,10 +5,10 @@ import ProductCart from "../reuseable/ProductCart";
 import { ApiData } from "../ContextApi";
 import Pagination from "./Pagination";
 
-const ProductsRight = ({onChilData,cateFilter}) => {
+const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
   let data = useContext(ApiData)
   let [currentPage, setCurrentpage] = useState(1)
-  let [parPage, setparpage] = useState(6)
+  let [parPage, setparpage] = useState(15)
   let [activeMulti,setActiveMulti] = useState("")
   let lastpage  = currentPage * parPage
   let firstPage = lastpage - parPage
@@ -43,7 +43,7 @@ const ProductsRight = ({onChilData,cateFilter}) => {
 
   useEffect(() => {
     onChilData(data);
-    }, [data,onChilData,cateFilter]);
+    }, [data,onChilData,cateFilter,brandFilter]);
   let pageNumber = []
   for (let i = 0; i < data.length / parPage; i++) {
     pageNumber.push(i)

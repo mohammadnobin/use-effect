@@ -25,11 +25,11 @@ const ProductDatails = () => {
     }, []);
   return (          
     <section className='py-[100px]'>
-      <ProductsDetailsHeader />
+      <ProductsDetailsHeader info={info} />
       <Container>
-        <ProductsDetailsTop images={info.thumbnail} />
-        <ProductsDetailsMeddle />
-        <ProductsDetailsBottom />
+        <ProductsDetailsTop info={info} />
+        <ProductsDetailsMeddle info={info} />
+        <ProductsDetailsBottom info={info} />
       </Container>
     </section>
   )

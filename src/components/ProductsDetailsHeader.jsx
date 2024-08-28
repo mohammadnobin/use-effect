@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from './Container';
-const ProductsDetailsHeader = () => {
+const ProductsDetailsHeader = ({info}) => {
     return (
         <>
             <div className="py-[20px] mb-[100px] border-[1px] border-[#F0F0F0] ">
@@ -13,10 +13,10 @@ const ProductsDetailsHeader = () => {
                             <div className="flex items-center gap-x-[22px] ">
 
                                 <div className="">
-                                    <h4 className='font-dm-sans font-normal text-[#767676] text-[16px] leading-[20px]'><del>$88.00</del></h4>
+                                    <h4 className='font-dm-sans font-normal text-[#767676] text-[16px] leading-[20px]'><del> ${info.price}</del></h4>
                                 </div>
                                 <div className="">
-                                    <h3 className='font-dm-sans font-semibold text-[20px] text-[#2B2B2B] leading-[26px]'>$44.00</h3>
+                                    <h3 className='font-dm-sans font-semibold text-[20px] text-[#2B2B2B] leading-[26px]'>${info.discountPercentage}</h3>
                                 </div>
                             </div>
                         </div>

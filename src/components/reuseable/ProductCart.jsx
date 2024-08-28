@@ -51,6 +51,7 @@ const ProductCart = (props) => {
                 </button>
               </div>
               <div className="">
+                      <Link to="/cartpage" >
                 <button>
                   <ul className="flex items-center gap-[15px] ">
                     <li>
@@ -63,6 +64,7 @@ const ProductCart = (props) => {
                     </li>
                   </ul>
                 </button>
+                      </Link>
               </div>
             </div>
           </div>

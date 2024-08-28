@@ -1,19 +1,26 @@
 import React, { useContext, useEffect, useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { ApiData } from "./ContextApi";
+import ProductleftcatebrancolorResuable from "./reuseable/ProductleftcatebrancolorResuable";
 
-const Productsleft = ({dataFromChild}) => {
+const Productsleft = ({dataFromChild,dataFromChidBrand}) => {
    let data = useContext(ApiData)
    let [categroy, setCategory] = useState([])
+   let [brand, setBrand] = useState([])
    let [cateFilter, setCateFilter] = useState([])
+   let [brandFilter, setBrandFilter] = useState([])
   let [cshow, setCshow] = useState(true);
-
+  let [cshowa, setCshowa] = useState(true);
   useEffect(()=>{
     dataFromChild(cateFilter)
-  },[cateFilter,dataFromChild])
+    dataFromChidBrand(brandFilter)
+  },[cateFilter,dataFromChild,brandFilter,dataFromChidBrand])
 
   let handleclick = () => {
     setCshow(!cshow);
+  };
+  let handleclicka = () => {
+    setCshowa(!cshowa);
   };
   
   let handleAllProducts= () => {
@@ -23,56 +30,22 @@ const Productsleft = ({dataFromChild}) => {
 
   useEffect(()=>{
       setCategory([...new Set(data.map((item) => item.category))]);
+      setBrand([...new Set(data.map((item) => item.brand))]);
   },[data])
 
   const handleCategory = (citem) => {
     const categoryFilter = data.filter((item) => item.category === citem);
     setCateFilter(categoryFilter);
   };
+  const handlebrand = (bitem) => {
+    const branFilter = data.filter((item) => item.brand === bitem);
+    setBrandFilter(branFilter);
+  };
   return (
     <>
       <div className="col-span-3">
-        <div className="sticky top-[150px] ">
-          <div
-          onClick={handleclick}
-          className="flex justify-between items-center pb-[35px] cursor-pointer"
-        >
-          <h3 className="font-dm-sans font-bold text-xl leading-[26px]  ">
-            Shop by Category
-          </h3>
-          {cshow ? (
-            <span>
-              <FaMinus />
-            </span>
-          ) : (
-            <span>
-              <FaPlus />
-            </span>
-          )}
-        </div>
-        {cshow && (
-          <div className="pb-[53px]">
-            <ul>
-              <li onClick={handleAllProducts} className="cursor-pointer flex justify-between items-center py-[20px] border-[#F0F0F0]  border-b-2 text-[#767676] font-dm-sans font-normal text-base leading-[30px]">All Products
-
-              <span>
-                  <FaPlus />
-                </span>
-              </li>
-              {categroy.map((item,i)=>(
-
-              <li onClick={()=>handleCategory(item)} key={i} className="cursor-pointer flex justify-between items-center py-[20px] border-[#F0F0F0]  border-b-2 text-[#767676] font-dm-sans font-normal text-base leading-[30px]">
-                {item}
-                <span>
-                  <FaPlus />
-                </span>
-              </li>
-              ))}
-            </ul>
-          </div>
-        )}
-        </div>
-        
+        <ProductleftcatebrancolorResuable title='Shop by Category' handleclick={handleclick} cshow={cshow} categroy={categroy} handleAllProducts={handleAllProducts} handleCategory={handleCategory} />
+        <ProductleftcatebrancolorResuable title='Shop by Color' handleclick={handleclicka} cshow={cshowa} categroy={brand} handleCategory={handlebrand} />
       </div>
     </>
   );

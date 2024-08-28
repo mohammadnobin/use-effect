@@ -7,6 +7,7 @@ import ContactsPage from './pages/ContactsPage'
 import JournalPage from './pages/JournalPage'
 import Layout from './rootlayout/Layout';
 import ProductDatails from './components/ProductDatails';
+import CartPage from './pages/CartPage';
 
 let router = createBrowserRouter(createRoutesFromElements(
   <Route element={<Layout />}>
@@ -16,6 +17,7 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path='/aboutpage' element={<AboutPage />} ></Route>
     <Route path='/contactspage' element={<ContactsPage />} ></Route>
     <Route path='/journalpage' element={<JournalPage />} ></Route>
+    <Route path='/cartpage' element={<CartPage />} ></Route>
   </Route>
 ))
 const App = () => {
