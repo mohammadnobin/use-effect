@@ -12,9 +12,8 @@ import { useDispatch } from 'react-redux';
 import { addToCart } from './slice/ProductSlice';
 
 const ProductsDetailsMeddle = ({info}) => {
-
   let dispatch = useDispatch()
-  let [count,setCount] = useState(0)
+  let [count,setCount] = useState(1)
   let [show, setShow] = useState (false)
   let [showTwo, setShowTow] = useState (false)
 
@@ -49,7 +48,7 @@ const ProductsDetailsMeddle = ({info}) => {
   });
 // Clint reating end
   let handleAddToCart = (productiem)=>{
-    dispatch(addToCart({...productiem, qun:1}))
+    dispatch(addToCart({...productiem, qun:count}))
   }
   return (
     <>

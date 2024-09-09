@@ -27,9 +27,11 @@ const ProductDatails = () => {
     <section className='py-[100px]'>
       <ProductsDetailsHeader info={info} />
       <Container>
+        <div className="px-5 lg:px-0">
         <ProductsDetailsTop info={info} />
         <ProductsDetailsMeddle info={info} />
         <ProductsDetailsBottom info={info} />
+        </div>
       </Container>
     </section>
   )

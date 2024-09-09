@@ -68,7 +68,6 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
    let hanldleActive = ()=>{
     setActiveMulti("active")
    }
-
   return (
     <>
       <div className="col-span-9">
@@ -145,10 +144,10 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
             />
           ))}
         </div>
-         <div className="flex justify-between items-center mt-[50px]">
+         <div className="lg:flex justify-between items-center mt-[50px]">
         <Pagination pageNumber={pageNumber} paginate={paginate} next={next} prev={prev} currentPage={currentPage} />
         <div className="">
-          <h4 className="font-dm-sans text-sm leading-[30px] font-normal text-[#767676]">Products from 1 to 6 of 30</h4>
+          <h4 className="font-dm-sans text-sm leading-[30px] font-normal text-[#767676] lg:text-right text-center">Products from 1 to 6 of 30</h4>
         </div>
          </div>
          </>

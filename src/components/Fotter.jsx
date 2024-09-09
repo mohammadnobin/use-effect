@@ -63,7 +63,7 @@ const Fotter = () => {
                 </ul>
               </div>
               <div className="">
-                <h4 className='font-dm-sans lg:text-left text-center font-normal text-sm leading-[23px] text-[#6D6D6D] '>2020 Orebi Minimal eCommerce Figma Template by Adveits</h4>
+                <h4 className='font-dm-sans lg:text-left text-center font-normal text-sm leading-[23px] text-[#6D6D6D]'>2020 Orebi Minimal eCommerce Figma Template by Adveits</h4>
               </div>
             </div>
         </Container>

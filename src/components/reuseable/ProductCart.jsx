@@ -3,10 +3,35 @@ import { FaHeart } from "react-icons/fa";
 import { TfiReload } from "react-icons/tfi";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
-
+import { useDispatch } from 'react-redux';
+import { addToCart } from "../slice/ProductSlice";
+import Swal from "sweetalert2";
 
 
 const ProductCart = (props) => {
+  let dispatch = useDispatch()
+  let handleAddToCart = (productiem)=>{
+    // dispatch(addToCart({...productiem, qun:1}))
+    try {
+      dispatch(addToCart({...productiem, qun:1}))
+      Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Your items has been add to cart",
+          showConfirmButton: false,
+          timer: 1500
+      });
+  }
+  catch (err) {
+      Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: " product  cart not add  ",
+          showConfirmButton: false,
+                timer: 1500
+            })
+  }
+}
   return (
     <>
       <div className="group flex  flex-col !w-[90%] mx-auto lg:!ml-[20px]">
@@ -51,10 +76,10 @@ const ProductCart = (props) => {
                 </button>
               </div>
               <div className="">
-                      <Link to="/cartpage" >
+                      {/* <Link to="/cartpage" > */}
                 <button>
                   <ul className="flex items-center gap-[15px] ">
-                    <li>
+                    <li onClick={()=>handleAddToCart(props)}>
                       <h4 className="font-dm-sans font-normal text-base leading-5 text-[#767676] hover:font-bold hover:text-[#262626] transition-all ease-in-out duration-200 ">
                         Add to Cart
                       </h4>
@@ -64,7 +89,7 @@ const ProductCart = (props) => {
                     </li>
                   </ul>
                 </button>
-                      </Link>
+                      {/* </Link> */}
               </div>
             </div>
           </div>

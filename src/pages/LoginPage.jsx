@@ -21,7 +21,7 @@ const LoginPage = () => {
                     </div>
                     <div className="">
                     <h3 className='font-dm-sans font-bold text-[16px] text-[#262626] leading-[23px] pb-[10px] pt-[23px]'>Password</h3>
-                    <input className='w-full border-transparent border-b-[#F0F0F0] border-[1px] focus-visible:outline-none' type="password" required/>
+                    <input className='w-full border-transparent border-b-[#F0F0F0] border-[1px] focus-visible:outline-none' type="password" placeholder='....' required/>
                     </div>
                     </div>
                     <div className="mt-[29px] pb-[70px] border-b-[1px] border-[#F0F0F0] ">

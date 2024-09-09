@@ -39,7 +39,7 @@ const Productsleft = ({dataFromChild,dataFromChidBrand}) => {
   };
   const handlebrand = (bitem) => {
     const branFilter = data.filter((item) => item.brand === bitem);
-    setBrandFilter(branFilter);
+    setCateFilter(branFilter);
   };
   return (
     <>
