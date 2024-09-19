@@ -26,8 +26,8 @@ let router = createBrowserRouter(createRoutesFromElements(
     <Route path='/loginpage' element={<LoginPage />} ></Route>
     <Route path='/singuppage' element={<SignUp />} ></Route>
     <Route path='/checkoutpage' element={<CheckoutPage />}></Route>
-    <Route path='*' element={<ErrorPage />}></Route>
     <Route path='/Myaccountpage' element={<MyAccountPage />}></Route>
+    <Route path='*' element={<ErrorPage />}></Route>
   </Route>
 ))
 const App = () => {

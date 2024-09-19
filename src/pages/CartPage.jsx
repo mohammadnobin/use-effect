@@ -5,7 +5,7 @@ import cartemty from '../assets/cartemtypage.png'
 import { RiCloseLine } from "react-icons/ri";
 import { FaMinus, FaPlus } from 'react-icons/fa6';
 import { useDispatch, useSelector } from 'react-redux';
-import { productDecrement, productIncrement, removeProduct } from '../components/slice/ProductSlice';
+import { addToCart, productDecrement, productIncrement, removeProduct } from '../components/slice/ProductSlice';
 import { Link } from 'react-router-dom';
 
 
@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 const CartPage = () => {
   let dispatch = useDispatch()
   let cartInfo = useSelector((state)=> state.product.cartItem)
-
   let {totalPrice, totalQuntity} = cartInfo.reduce((ecc,item)=>{
     ecc.totalPrice += item.price * item.qun
     ecc.totalQuntity += item.qun
@@ -111,14 +110,16 @@ const CartPage = () => {
                 </div>
             </div>
             <div className="mt-[30px] lg:text-right">
-            <button type='submit' className='py-[16px] px-[25px] bg-black text-white font-dm-sans font-bold text-sm leading-[18px]'>Proceed to Checkout</button>
+            <Link to='/checkoutpage'>
+            <button onClick={()=>dispatch(addToCart)} type='submit' className='py-[16px] px-[25px] bg-black text-white font-dm-sans font-bold text-sm leading-[18px]'>Proceed to Checkout</button>
+            </Link>
           </div>
             </div>
         </div>
         </>
          :
          <>
-         <div className="lg:w-[60%] mx-auto lg:flex items-center gap-4 ">
+         <div className="lg:w-[60%] mx-auto lg:flex items-center gap-4">
           <div className="w-[40%] mx-auto">
             <img src={cartemty} alt="" />
           </div>

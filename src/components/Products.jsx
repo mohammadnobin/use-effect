@@ -6,23 +6,24 @@ import PageHeaderReuseable from "./reuseable/PageHeaderReuseable";
 
 const Products = () => {
   let [cateFilter, setCateFilter] = useState([])
-  let [brandFilter, setbrandFilter] = useState([])
-  let handleData= (data)=>{
-  }
+  let [brandFilter, setBrandFilter] = useState([])
+
+
   let dataFromChild = (productLeftdata)=>{
     setCateFilter(productLeftdata)
   }
-  let dataFromChidBrand = (productLefBrandtdata)=>{
-    setbrandFilter(productLefBrandtdata)
+  let dataFrombrand = (productLefbrandtdata)=>{
+    setBrandFilter(productLefbrandtdata)
   }
+
  return (
     <section id="" className="pb-[140px]">
 
       <Container>
         <PageHeaderReuseable title="Products" prev="Home" next="Products" />
         <div className="lg:grid grid-cols-12 gap-x-[39px]">
-            <Productsleft dataFromChild={dataFromChild} dataFromChidBrand={dataFromChidBrand} />
-            <ProductsRight onChilData={handleData} cateFilter={cateFilter} brandFilter={brandFilter} />
+            <Productsleft dataFromChild={dataFromChild} dataFrombrand={dataFrombrand} />
+            <ProductsRight cateFilter={cateFilter} brandFilter={brandFilter} />
         </div>
       </Container>
     </section>

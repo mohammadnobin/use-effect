@@ -4,8 +4,9 @@ import { BiSolidCategory } from "react-icons/bi";
 import ProductCart from "../reuseable/ProductCart";
 import { ApiData } from "../ContextApi";
 import Pagination from "./Pagination";
+import { useLocation } from "react-router-dom";
 
-const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
+const ProductsRight = ({onChilData,cateFilter,brandFilter }) => {
   let data = useContext(ApiData)
   let [currentPage, setCurrentpage] = useState(1)
   let [parPage, setparpage] = useState(15)
@@ -41,9 +42,9 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
     }
    }
 
+
   useEffect(() => {
-    onChilData(data);
-    }, [data,onChilData,cateFilter,brandFilter]);
+    }, [allFilter,cateFilter]);
   let pageNumber = []
   for (let i = 0; i < data.length / parPage; i++) {
     pageNumber.push(i)
@@ -88,8 +89,9 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
                 Sort by:
               </label>
               <select className="border-[#F0F0F0] border-[1px]   lg:w-[239px] py-[5px] font-dm-sans font-normal text-base leading-8 text-[#767676] ">
-                <option value="">20</option>
-                <option value="">30</option>
+                <option value="">Featured</option>
+                <option value="">Price</option>
+                <option value="">Category</option>
               </select>
             </div>
             <div className="lg:w-[199px] flex items-center">
@@ -106,7 +108,7 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
         </div>
         {cateFilter.length > 0 ?
         <>
-                 <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"}  `}>
+                 <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"}`}>
                  {allFilter.map((item,i) => (
                    <ProductCart
                    key={i}
@@ -130,6 +132,21 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter}) => {
                }
         </>
          :
+         brandFilter.length > 0 ?
+         <>
+         <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"}  `}>
+         {brandFilter.map((item,i) => (
+           <ProductCart
+           key={i}
+             discount={item.discountPercentage}
+             thumbnail={item.thumbnail}
+             title={item.title}
+             price={item.price}
+             id={item.id}
+           />
+         ))}
+       </div>
+</> :
          <>
         <div className={`${activeMulti == "active" ? "lg:w-1/3" : "grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-y-[50px]"} `}>
           {allPage.map((item,i) => (

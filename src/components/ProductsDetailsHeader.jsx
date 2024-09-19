@@ -1,6 +1,13 @@
 import React from 'react'
 import Container from './Container';
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { addToCart } from './slice/ProductSlice';
 const ProductsDetailsHeader = ({info}) => {
+    let dispatch = useDispatch()
+    let handleAddToCart = (productiem)=>{
+        dispatch(addToCart({...productiem,qun:1}))
+      }
     return (
         <>
             <div className="py-[20px] mb-[100px] border-[1px] border-[#F0F0F0] ">
@@ -21,7 +28,9 @@ const ProductsDetailsHeader = ({info}) => {
                             </div>
                         </div>
                         <div className="text-center">
-                            <button className='bg-black text-white py-[16px] px-[60px] font-dm-sans font-semibold text-[14px] leading-[19px] '>Add to Cart</button>
+                            <Link to='/cartpage'>
+                            <button onClick={()=>handleAddToCart(info)} className='bg-black text-white py-[16px] px-[60px] font-dm-sans font-semibold text-[14px] leading-[19px] '>Add to Cart</button>
+                            </Link>
                         </div>
                     </div>
                 </Container>

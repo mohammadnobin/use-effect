@@ -28,11 +28,8 @@ const ProductleftcatebrancolorResuable = (props) => {
         {props.cshow && (
           <div className="pb-[53px]">
             <ul>
-              <li onClick={props.handleAllProducts} className="cursor-pointer flex justify-between items-center py-[20px] border-[#F0F0F0]  border-b-2 text-[#767676] font-dm-sans font-normal text-base leading-[30px]">All Products
-
-              <span>
-                  <FaPlus />
-                </span>
+              <li onClick={props.handleAllProducts} className="cursor-pointer flex justify-between items-center py-[20px] border-[#F0F0F0]  border-b-2 text-[#767676] font-dm-sans font-normal text-base leading-[30px]">
+                {props.allproducts}
               </li>
               {props.categroy.map((item,i)=>(
 
