@@ -2,8 +2,6 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import Container from './Container';
-
-
 import ProductsDetailsMeddle from './ProductsDetailsMeddle';
 import ProductsDetailsTop from './ProductsDetailsTop';
 import ProductsDetailsBottom from './ProductsDetailsBottom';
@@ -12,7 +10,7 @@ import ProductsDetailsHeader from './ProductsDetailsHeader';
 
 
 const ProductDatails = () => {
-    let productId = useParams(5)
+    let productId = useParams()
 
     let [info, setinfo] = useState([]);
     let getData = () => {
@@ -22,7 +20,7 @@ const ProductDatails = () => {
     };
     useEffect(() => {
       getData();
-    }, []);
+    }, [productId]);
   return (          
     <section className='py-[100px]'>
       <ProductsDetailsHeader info={info} />

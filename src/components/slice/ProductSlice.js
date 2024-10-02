@@ -30,10 +30,14 @@ export const ProductSlice = createSlice({
     removeProduct:(state,action)=>{
       state.cartItem.splice(action.payload, 1)
       localStorage.setItem("cart",JSON.stringify(state.cartItem))
+    },
+    clearCart:(state)=>{
+      state.cartItem = []
+      localStorage.setItem("cart",JSON.stringify(state.cartItem))
     }
   },
 })
 
-export const { addToCart,productIncrement,productDecrement,removeProduct } = ProductSlice.actions
+export const { addToCart,productIncrement,productDecrement,removeProduct,clearCart } = ProductSlice.actions
 
 export default ProductSlice.reducer

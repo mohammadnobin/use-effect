@@ -5,7 +5,7 @@ import cartemty from '../assets/cartemtypage.png'
 import { RiCloseLine } from "react-icons/ri";
 import { FaMinus, FaPlus } from 'react-icons/fa6';
 import { useDispatch, useSelector } from 'react-redux';
-import { addToCart, productDecrement, productIncrement, removeProduct } from '../components/slice/ProductSlice';
+import { addToCart, clearCart, productDecrement, productIncrement, removeProduct } from '../components/slice/ProductSlice';
 import { Link } from 'react-router-dom';
 
 
@@ -18,6 +18,9 @@ const CartPage = () => {
     ecc.totalQuntity += item.qun
     return ecc
   },{totalPrice:0,totalQuntity:0})
+  const handlecartClear = ()=>{
+    dispatch(clearCart())
+  }
   return (
     <section className='mb-[140px]'>
     <Container>
@@ -90,6 +93,7 @@ const CartPage = () => {
             <h4 className='font-dm-sans font-bold text-sm text-black leading-[23px]'>Update cart</h4>
             </div>
         </div>
+        <button onClick={handlecartClear} className='font-dm-sans text-xl py-[10px] px-[30px] bg-black text-white mt-[20px]'>clear cart</button>
         <div className="flex items-center lg:justify-end mt-[54px]">
             <div className="">
             <h4 className='font-dm-sans font-bold text-xl text-black leading-[23px] pb-[24px] lg:text-right'>Cart totals</h4>

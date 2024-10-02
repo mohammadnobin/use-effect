@@ -9,6 +9,7 @@ const Productsleft = ({dataFromChild,dataFrombrand}) => {
     const location = useLocation();
    let data = useContext(ApiData)
    let [categroy, setCategory] = useState([])
+   console.log(categroy)
    let [brand, setBrand] = useState([])
    let [cateFilter, setCateFilter] = useState([])
    let [brandFilter, setBrandFilter] = useState([])

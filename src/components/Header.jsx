@@ -13,7 +13,7 @@ let Header = () => {
   let data = useContext(ApiData)
   let cartInfo = useSelector((state) => state.product.cartItem);
   let [category,setCatagory] = useState([])
-  let [cateFilter, setCateFilter] = useState([])
+  let [activeIndex, setActiveIndex] = useState(-1)
   let [catagorishow, setCatagorishow] = useState(false);
   let [cartshow, setCartshow] = useState(false);
   let [usershow, setUsershow] = useState(false);
@@ -64,6 +64,18 @@ let Header = () => {
     setSearchInfo("")
   }
 
+  const handleKeyDown = (e)=>{
+    if(searchFilter.length > 0){
+      if(e.key === "ArrowDown"){
+        setActiveIndex((prevIndex) => prevIndex < searchFilter.length -1 ? prevIndex +1 : prevIndex)
+      }else if(e.key === "ArrowUp"){
+        setActiveIndex((prevIndex) =>( prevIndex > 0 ? prevIndex - 1 : prevIndex))
+      }else if(e.key === "Enter" && activeIndex >=0){
+        handleSearchProduct(searchFilter[activeIndex].id)
+      }
+    }
+  }
+
   const handleCategory = (citem) => {
     // const categoryFilter = data.filter((item) => item.category === citem);
     // setCateFilter(categoryFilter);
@@ -95,14 +107,14 @@ let Header = () => {
           </div>
           <div className="w-2/4">
             <div className="relative">
-              <input value={searchInfo} onChange={handlechange} className="w-full h-[50px] placeholder:text-[#C4C4C4] text-black lg:pl-3 pl-1" type="text" placeholder="Search Products" />
+              <input value={searchInfo} onKeyDown={handleKeyDown} onChange={handlechange} className="w-full h-[50px] placeholder:text-[#C4C4C4] text-black lg:pl-3 pl-1" type="text" placeholder="Search Products" />
               <div className="absolute top-[50%] translate-y-[-50%] right-2 lg:right-5">
                 <FaSearch className="cursor-pointer" />
               </div>
               {searchFilter.length > 0 && 
               <div className="absolute z-50 top-[52px] overflow-y-scroll left-0 lg:h-[400px] h-[250px] w-full p-[20px] bg-[#F5F5F3] scrollbar-thin scrollbar-thumb-slate-300 scrollbar-track-[#F5F5F3] cursor-pointer">
                 {searchFilter.map((item,i)=>(
-                  <div key={i} onClick={()=>handleSearchProduct(item.id)} className="lg:flex items-center gap-x-[100px] lg:pl-[150px]">
+                  <div key={i} onClick={()=>handleSearchProduct(item.id)} className={`lg:flex items-center gap-x-[100px] lg:pl-[150px] ${i === activeIndex ? "bg-gray-200" : ""}`}>
                   <div className="w-[80px] lg:block hidden">
                     <img className="w-full" src={item.thumbnail} alt="" />
                   </div>
