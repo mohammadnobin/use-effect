@@ -123,7 +123,7 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter }) => {
                {pagineShow ? cateFilter.length > 6 && 
                <div className="flex justify-between items-center mt-[50px]">
         <Pagination pageNumber={filterNumber} paginate={paginate2} next={next2} prev={prev2} currentPage={currentFilter} />
-        <div className="">
+        <div className="lg:block hidden">
           <h4 className="font-dm-sans text-sm leading-[30px] font-normal text-[#767676]">Products from 1 to 6 of 30</h4>
         </div>
          </div>
@@ -163,7 +163,7 @@ const ProductsRight = ({onChilData,cateFilter,brandFilter }) => {
         </div>
          <div className="lg:flex justify-between items-center mt-[50px]">
         <Pagination pageNumber={pageNumber} paginate={paginate} next={next} prev={prev} currentPage={currentPage} />
-        <div className="">
+        <div className="lg:block hidden">
           <h4 className="font-dm-sans text-sm leading-[30px] font-normal text-[#767676] lg:text-right text-center">Products from 1 to 6 of 30</h4>
         </div>
          </div>
