@@ -1,4 +1,5 @@
-// import React from 'react'
+
+
 
 // const Pagination = ({pageNumber,paginate,next,prev,currentPage}) => {
 //     return (
