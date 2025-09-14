@@ -2,7 +2,7 @@
 
 
 
-// import React from 'react';
+
 
 // const Pagination = ({ pageNumber, paginate, next, prev, currentPage }) => {
 //     // Current page set: only display 3 pages at a time
