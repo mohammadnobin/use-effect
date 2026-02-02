@@ -2,3 +2,8 @@
 
 Source: `src/components/ProductsDetailsTop.jsx` (21 lines)
 
+## Imports
+
+- `react`
+- `./reuseable/PageHeaderReuseable`
+
