@@ -2,3 +2,8 @@
 
 Source: `src/pages/ErrorPage.jsx` (66 lines)
 
+## Imports
+
+- `react`
+- `react-icons/fa`
+- `../components/Container`
