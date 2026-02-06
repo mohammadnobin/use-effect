@@ -7,3 +7,7 @@ Source: `src/components/ProductsDetailsTop.jsx` (21 lines)
 - `react`
 - `./reuseable/PageHeaderReuseable`
 
+## Exports
+
+- `ProductsDetailsTop`
+
