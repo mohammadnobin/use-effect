@@ -12,3 +12,12 @@ Source: `src/components/BestSeller.jsx` (27 lines)
 - `../assets/bestsell3.png`
 - `../assets/bestsell4.png`
 
+## Exports
+
+- `BestSeller`
+
+## Renders
+
+- `<Container>`
+- `<ProductCart>`
+
