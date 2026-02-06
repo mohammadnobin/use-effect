@@ -9,3 +9,13 @@ Source: `src/pages/ErrorPage.jsx` (66 lines)
 - `../components/Container`
 - `react-router-dom`
 
+## Exports
+
+- `ErrorPage`
+
+## Renders
+
+- `<Container>`
+- `<FaSearch>`
+- `<Link>`
+
