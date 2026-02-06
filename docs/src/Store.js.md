@@ -7,3 +7,7 @@ Source: `src/Store.js` (8 lines)
 - `@reduxjs/toolkit`
 - `./components/slice/ProductSlice`
 
+## Exports
+
+- `configureStore`
+
