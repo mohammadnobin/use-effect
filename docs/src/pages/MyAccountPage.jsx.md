@@ -12,3 +12,8 @@ Source: `src/pages/MyAccountPage.jsx` (33 lines)
 
 - `MyAccountPage`
 
+## Renders
+
+- `<Container>`
+- `<PageHeaderReuseable>`
+
