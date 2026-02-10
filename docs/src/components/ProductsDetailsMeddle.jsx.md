@@ -13,3 +13,7 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 - `../assets/star50.png`
 - `../assets/star75.png`
 - `../assets/staremty.png`
+- `react-router-dom`
+- `react-redux`
+- `./slice/ProductSlice`
+
