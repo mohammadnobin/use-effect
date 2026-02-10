@@ -8,3 +8,7 @@ Source: `src/pages/MyAccountPage.jsx` (33 lines)
 - `../components/reuseable/PageHeaderReuseable`
 - `../components/Container`
 
+## Exports
+
+- `MyAccountPage`
+
