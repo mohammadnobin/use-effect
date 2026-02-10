@@ -10,3 +10,6 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 - `react-icons/fa`
 - `../assets/starfull.png`
 - `../assets/star25.png`
+- `../assets/star50.png`
+- `../assets/star75.png`
+- `../assets/staremty.png`
