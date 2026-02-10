@@ -11,3 +11,7 @@ Source: `src/components/ProductsDetailsTop.jsx` (21 lines)
 
 - `ProductsDetailsTop`
 
+## Renders
+
+- `<PageHeaderReuseable>`
+
