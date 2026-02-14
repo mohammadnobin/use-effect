@@ -21,3 +21,13 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 
 - `ProductsDetailsMeddle`
 
+## Hooks used
+
+- `useDispatch`
+- `useState`
+
+## Renders
+
+- `<FaCircle>`
+- `<FaMinus>`
+- `<FaPlus>`
