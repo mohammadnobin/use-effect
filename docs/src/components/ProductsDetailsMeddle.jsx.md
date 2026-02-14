@@ -17,3 +17,7 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 - `react-redux`
 - `./slice/ProductSlice`
 
+## Exports
+
+- `ProductsDetailsMeddle`
+
