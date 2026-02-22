@@ -21,3 +21,6 @@ Source: `src/components/Banner.jsx` (101 lines)
 - `<Slider>`
 - `<Container>`
 - `<Fa2>`
+- `<MdLocalShipping>`
+- `<SlReload>`
+
