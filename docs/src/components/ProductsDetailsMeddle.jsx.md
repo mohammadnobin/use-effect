@@ -31,3 +31,5 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 - `<FaCircle>`
 - `<FaMinus>`
 - `<FaPlus>`
+- `<Link>`
+

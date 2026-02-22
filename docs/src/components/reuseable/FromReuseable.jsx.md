@@ -6,3 +6,7 @@ Source: `src/components/reuseable/FromReuseable.jsx` (30 lines)
 
 - `react`
 
+## Exports
+
+- `FromReuseable`
+
