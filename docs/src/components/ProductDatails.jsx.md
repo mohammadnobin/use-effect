@@ -7,3 +7,6 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 - `axios`
 - `react`
 - `react-router-dom`
+- `./Container`
+- `./ProductsDetailsMeddle`
+- `./ProductsDetailsTop`
