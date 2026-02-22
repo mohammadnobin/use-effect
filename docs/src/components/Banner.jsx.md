@@ -12,3 +12,12 @@ Source: `src/components/Banner.jsx` (101 lines)
 - `react-icons/md`
 - `react-icons/fa6`
 
+## Exports
+
+- `Banner`
+
+## Renders
+
+- `<Slider>`
+- `<Container>`
+- `<Fa2>`
