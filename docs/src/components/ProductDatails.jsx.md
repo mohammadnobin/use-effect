@@ -10,3 +10,6 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 - `./Container`
 - `./ProductsDetailsMeddle`
 - `./ProductsDetailsTop`
+- `./ProductsDetailsBottom`
+- `./ProductsDetailsHeader`
+
