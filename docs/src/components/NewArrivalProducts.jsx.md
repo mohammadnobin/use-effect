@@ -9,3 +9,7 @@ Source: `src/components/NewArrivalProducts.jsx` (87 lines)
 - `react-icons/tfi`
 - `react-router-dom`
 
+## Exports
+
+- `NewArrivalProducts`
+
