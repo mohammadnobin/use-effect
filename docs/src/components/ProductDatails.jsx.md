@@ -28,3 +28,6 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 - `<ProductsDetailsHeader>`
 - `<Container>`
 - `<ProductsDetailsTop>`
+- `<ProductsDetailsMeddle>`
+- `<ProductsDetailsBottom>`
+
