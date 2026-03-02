@@ -23,3 +23,8 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 - `useState`
 - `useEffect`
 
+## Renders
+
+- `<ProductsDetailsHeader>`
+- `<Container>`
+- `<ProductsDetailsTop>`
