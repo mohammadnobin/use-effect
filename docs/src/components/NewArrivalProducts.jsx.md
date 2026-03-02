@@ -13,3 +13,8 @@ Source: `src/components/NewArrivalProducts.jsx` (87 lines)
 
 - `NewArrivalProducts`
 
+## Renders
+
+- `<Link>`
+- `<FaHeart>`
+- `<TfiReload>`
