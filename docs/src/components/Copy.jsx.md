@@ -10,3 +10,6 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `@mui/material/TextField`
 - `@mui/material/styles`
 - `@mui/material/Button`
+- `react-router-dom`
+- `react-toastify`
+- `@mui/material/Alert`
