@@ -18,3 +18,5 @@ Source: `src/components/NewArrivalProducts.jsx` (87 lines)
 - `<Link>`
 - `<FaHeart>`
 - `<TfiReload>`
+- `<FaShoppingCart>`
+
