@@ -13,3 +13,13 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 - `./ProductsDetailsBottom`
 - `./ProductsDetailsHeader`
 
+## Exports
+
+- `ProductDatails`
+
+## Hooks used
+
+- `useParams`
+- `useState`
+- `useEffect`
+
