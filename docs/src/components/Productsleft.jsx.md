@@ -20,3 +20,10 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 - `useLocation`
 - `useContext`
 - `useState`
+- `useEffect`
+
+## Renders
+
+- `<ProductleftcatebrancolorResuable>`
+- `<IoMdArrowDropup>`
+- `<IoMdArrowDropdown>`
