@@ -19,3 +19,6 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `react-icons/fc`
 - `react-redux`
 - `../slices/userSlice`
+- `firebase/database`
+- `react-icons/lu`
+
