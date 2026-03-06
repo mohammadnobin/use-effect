@@ -13,3 +13,9 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `react-router-dom`
 - `react-toastify`
 - `@mui/material/Alert`
+- `react-icons/bi`
+- `firebase/auth`
+- `react-loader-spinner`
+- `react-icons/fc`
+- `react-redux`
+- `../slices/userSlice`
