@@ -27,3 +27,5 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 - `<ProductleftcatebrancolorResuable>`
 - `<IoMdArrowDropup>`
 - `<IoMdArrowDropdown>`
+- `<FaPlus>`
+
