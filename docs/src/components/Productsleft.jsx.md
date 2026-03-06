@@ -11,3 +11,12 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 - `react-icons/io`
 - `react-router-dom`
 
+## Exports
+
+- `Productsleft`
+
+## Hooks used
+
+- `useLocation`
+- `useContext`
+- `useState`
