@@ -7,3 +7,6 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 - `react`
 - `../components/Container`
 - `../components/reuseable/PageHeaderReuseable`
+- `../assets/cartemtypage.png`
+- `react-icons/ri`
+- `react-icons/fa6`
