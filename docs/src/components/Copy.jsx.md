@@ -22,3 +22,7 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `firebase/database`
 - `react-icons/lu`
 
+## Exports
+
+- `Registration`
+
