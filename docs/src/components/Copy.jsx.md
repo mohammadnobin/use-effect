@@ -26,3 +26,8 @@ Source: `src/components/Copy.jsx` (244 lines)
 
 - `Registration`
 
+## Hooks used
+
+- `useDispatch`
+- `useSelector`
+- `useNavigate`
