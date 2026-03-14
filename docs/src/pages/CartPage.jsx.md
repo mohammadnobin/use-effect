@@ -18,3 +18,8 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 
 - `CartPage`
 
+## Hooks used
+
+- `useDispatch`
+- `useSelector`
+
