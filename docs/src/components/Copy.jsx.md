@@ -39,3 +39,6 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `<Grid>`
 - `<FcGoogle>`
 - `<MyInput>`
+- `<BiSolidErrorCircle>`
+- `<LuEyeOff>`
+- `<LuEye>`
