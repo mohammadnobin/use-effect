@@ -42,3 +42,7 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `<BiSolidErrorCircle>`
 - `<LuEyeOff>`
 - `<LuEye>`
+- `<Dna>`
+- `<MyButton>`
+- `<Link>`
+
