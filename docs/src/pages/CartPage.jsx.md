@@ -10,3 +10,7 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 - `../assets/cartemtypage.png`
 - `react-icons/ri`
 - `react-icons/fa6`
+- `react-redux`
+- `../components/slice/ProductSlice`
+- `react-router-dom`
+
