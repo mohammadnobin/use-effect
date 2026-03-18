@@ -28,3 +28,7 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 - `<Container>`
 - `<PageHeaderReuseable>`
 - `<RiCloseLine>`
+- `<FaMinus>`
+- `<FaPlus>`
+- `<Link>`
+
