@@ -23,3 +23,8 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 - `useDispatch`
 - `useSelector`
 
+## Renders
+
+- `<Container>`
+- `<PageHeaderReuseable>`
+- `<RiCloseLine>`
