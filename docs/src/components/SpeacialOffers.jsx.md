@@ -12,3 +12,7 @@ Source: `src/components/SpeacialOffers.jsx` (48 lines)
 - `../assets/special4.png`
 - `./Container`
 
+## Exports
+
+- `SpeacialOffers`
+
