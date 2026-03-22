@@ -7,3 +7,7 @@ Source: `src/pages/ShopPage.jsx` (13 lines)
 - `react`
 - `../components/Products`
 
+## Exports
+
+- `ShopPage`
+
