@@ -10,3 +10,9 @@ Source: `src/components/Apps.jsx` (54 lines)
 
 - `Apps`
 
+## Hooks used
+
+- `useState`
+- `useRef`
+- `useEffect`
+
