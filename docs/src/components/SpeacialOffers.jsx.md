@@ -16,3 +16,8 @@ Source: `src/components/SpeacialOffers.jsx` (48 lines)
 
 - `SpeacialOffers`
 
+## Renders
+
+- `<Container>`
+- `<ProductCart>`
+
