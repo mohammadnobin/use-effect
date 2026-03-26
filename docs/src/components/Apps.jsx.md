@@ -6,3 +6,7 @@ Source: `src/components/Apps.jsx` (54 lines)
 
 - `react`
 
+## Exports
+
+- `Apps`
+
