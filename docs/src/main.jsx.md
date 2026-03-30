@@ -10,3 +10,5 @@ Source: `src/main.jsx` (19 lines)
 - `./components/ContextApi.jsx`
 - `react-redux`
 - `./Store.js`
+- `./firebase.config.js`
+
