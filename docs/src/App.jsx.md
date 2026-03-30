@@ -16,3 +16,7 @@ Source: `src/App.jsx` (41 lines)
 - `./pages/CartPage`
 - `./pages/LoginPage`
 - `./pages/SignUp`
+- `./pages/CheckoutPage`
+- `./pages/ErrorPage`
+- `./pages/MyAccountPage`
+
