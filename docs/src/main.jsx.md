@@ -7,3 +7,6 @@ Source: `src/main.jsx` (19 lines)
 - `react`
 - `react-dom/client`
 - `./App.jsx`
+- `./components/ContextApi.jsx`
+- `react-redux`
+- `./Store.js`
