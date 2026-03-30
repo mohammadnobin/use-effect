@@ -10,3 +10,6 @@ Source: `src/App.jsx` (41 lines)
 - `./pages/ShopPage`
 - `./pages/AboutPage`
 - `./pages/ContactsPage`
+- `./pages/JournalPage`
+- `./rootlayout/Layout`
+- `./components/ProductDatails`
