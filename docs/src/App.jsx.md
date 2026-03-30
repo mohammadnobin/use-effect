@@ -13,3 +13,6 @@ Source: `src/App.jsx` (41 lines)
 - `./pages/JournalPage`
 - `./rootlayout/Layout`
 - `./components/ProductDatails`
+- `./pages/CartPage`
+- `./pages/LoginPage`
+- `./pages/SignUp`
