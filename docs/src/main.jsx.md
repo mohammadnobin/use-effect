@@ -12,3 +12,9 @@ Source: `src/main.jsx` (19 lines)
 - `./Store.js`
 - `./firebase.config.js`
 
+## Renders
+
+- `<ContextApi>`
+- `<Provider>`
+- `<App>`
+
