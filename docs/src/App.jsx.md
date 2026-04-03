@@ -24,3 +24,8 @@ Source: `src/App.jsx` (41 lines)
 
 - `App`
 
+## Renders
+
+- `<Route>`
+- `<Layout>`
+- `<HomePage>`
