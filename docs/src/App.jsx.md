@@ -32,3 +32,6 @@ Source: `src/App.jsx` (41 lines)
 - `<ShopPage>`
 - `<ProductDatails>`
 - `<AboutPage>`
+- `<ContactsPage>`
+- `<JournalPage>`
+- `<CartPage>`
