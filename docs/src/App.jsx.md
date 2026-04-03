@@ -29,3 +29,6 @@ Source: `src/App.jsx` (41 lines)
 - `<Route>`
 - `<Layout>`
 - `<HomePage>`
+- `<ShopPage>`
+- `<ProductDatails>`
+- `<AboutPage>`
