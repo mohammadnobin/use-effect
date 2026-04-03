@@ -20,3 +20,7 @@ Source: `src/App.jsx` (41 lines)
 - `./pages/ErrorPage`
 - `./pages/MyAccountPage`
 
+## Exports
+
+- `App`
+
