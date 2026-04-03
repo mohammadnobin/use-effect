@@ -35,3 +35,6 @@ Source: `src/App.jsx` (41 lines)
 - `<ContactsPage>`
 - `<JournalPage>`
 - `<CartPage>`
+- `<LoginPage>`
+- `<SignUp>`
+- `<CheckoutPage>`
