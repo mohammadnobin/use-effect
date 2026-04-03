@@ -38,3 +38,7 @@ Source: `src/App.jsx` (41 lines)
 - `<LoginPage>`
 - `<SignUp>`
 - `<CheckoutPage>`
+- `<MyAccountPage>`
+- `<ErrorPage>`
+- `<RouterProvider>`
+
