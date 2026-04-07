@@ -10,3 +10,6 @@ Source: `src/components/Header.jsx` (291 lines)
 - `react-icons/fa`
 - `react-icons/md`
 - `react-icons/ri`
+- `react-redux`
+- `react-router-dom`
+- `./slice/ProductSlice`
