@@ -15,3 +15,7 @@ Source: `src/components/Header.jsx` (291 lines)
 - `./slice/ProductSlice`
 - `./ContextApi`
 
+## Exports
+
+- `Header`
+
