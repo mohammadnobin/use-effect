@@ -7,3 +7,8 @@ Source: `src/components/ContextApi.jsx` (69 lines)
 - `react`
 - `axios`
 
+## Hooks used
+
+- `useState`
+- `useEffect`
+
