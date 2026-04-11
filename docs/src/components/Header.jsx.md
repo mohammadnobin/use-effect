@@ -19,3 +19,8 @@ Source: `src/components/Header.jsx` (291 lines)
 
 - `Header`
 
+## Hooks used
+
+- `useContext`
+- `useSelector`
+- `useState`
