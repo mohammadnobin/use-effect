@@ -12,3 +12,7 @@ Source: `src/components/ContextApi.jsx` (69 lines)
 - `useState`
 - `useEffect`
 
+## Renders
+
+- `<ApiData.Provider>`
+
