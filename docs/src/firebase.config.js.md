@@ -6,3 +6,7 @@ Source: `src/firebase.config.js` (20 lines)
 
 - `firebase/app`
 
+## Exports
+
+- `firebaseConfig`
+
