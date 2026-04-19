@@ -37,3 +37,6 @@ Source: `src/components/Header.jsx` (291 lines)
 - `<FaSearch>`
 - `<FaUser>`
 - `<MdOutlineArrowDropDown>`
+- `<FaShoppingCart>`
+- `<RiCloseLargeFill>`
+
