@@ -24,3 +24,8 @@ Source: `src/components/Header.jsx` (291 lines)
 - `useContext`
 - `useSelector`
 - `useState`
+- `useRef`
+- `useDispatch`
+- `useNavigate`
+- `useEffect`
+
