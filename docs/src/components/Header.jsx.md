@@ -29,3 +29,8 @@ Source: `src/components/Header.jsx` (291 lines)
 - `useNavigate`
 - `useEffect`
 
+## Renders
+
+- `<Container>`
+- `<HiOutlineBars3BottomLeft>`
+- `<Link>`
