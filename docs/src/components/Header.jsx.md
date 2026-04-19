@@ -34,3 +34,6 @@ Source: `src/components/Header.jsx` (291 lines)
 - `<Container>`
 - `<HiOutlineBars3BottomLeft>`
 - `<Link>`
+- `<FaSearch>`
+- `<FaUser>`
+- `<MdOutlineArrowDropDown>`
