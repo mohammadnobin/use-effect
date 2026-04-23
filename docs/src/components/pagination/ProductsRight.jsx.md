@@ -7,3 +7,6 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 - `react`
 - `react-icons/fa`
 - `react-icons/bi`
+- `../reuseable/ProductCart`
+- `../ContextApi`
+- `./Pagination`
