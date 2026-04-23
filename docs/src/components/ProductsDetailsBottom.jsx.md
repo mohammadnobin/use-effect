@@ -7,3 +7,5 @@ Source: `src/components/ProductsDetailsBottom.jsx` (81 lines)
 - `react`
 - `../assets/starfull.png`
 - `../assets/staremty.png`
+- `./reuseable/FromReuseable`
+
