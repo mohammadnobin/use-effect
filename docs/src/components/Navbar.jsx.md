@@ -11,3 +11,7 @@ Source: `src/components/Navbar.jsx` (67 lines)
 - `../assets/navlogo.png`
 - `react-router-dom`
 
+## Exports
+
+- `Navbar`
+
