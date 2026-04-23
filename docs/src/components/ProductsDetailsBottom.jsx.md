@@ -9,3 +9,7 @@ Source: `src/components/ProductsDetailsBottom.jsx` (81 lines)
 - `../assets/staremty.png`
 - `./reuseable/FromReuseable`
 
+## Exports
+
+- `ProductsDetailsBottom`
+
