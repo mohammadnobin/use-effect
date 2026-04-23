@@ -12,3 +12,7 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 - `./Pagination`
 - `react-router-dom`
 
+## Exports
+
+- `ProductsRight`
+
