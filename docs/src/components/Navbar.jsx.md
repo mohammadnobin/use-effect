@@ -7,3 +7,7 @@ Source: `src/components/Navbar.jsx` (67 lines)
 - `react`
 - `./Container`
 - `react-icons/fa6`
+- `react-icons/ri`
+- `../assets/navlogo.png`
+- `react-router-dom`
+
