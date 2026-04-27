@@ -22,3 +22,8 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 - `useState`
 - `useEffect`
 
+## Renders
+
+- `<BiSolidCategory>`
+- `<FaList>`
+- `<ProductCart>`
