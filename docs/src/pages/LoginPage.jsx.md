@@ -7,3 +7,6 @@ Source: `src/pages/LoginPage.jsx` (291 lines)
 - `react`
 - `../components/Container`
 - `../components/reuseable/PageHeaderReuseable`
+- `firebase/auth`
+- `react-toastify`
+- `react-loader-spinner`
