@@ -16,3 +16,9 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 
 - `ProductsRight`
 
+## Hooks used
+
+- `useContext`
+- `useState`
+- `useEffect`
+
