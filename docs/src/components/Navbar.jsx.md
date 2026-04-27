@@ -19,3 +19,8 @@ Source: `src/components/Navbar.jsx` (67 lines)
 
 - `useState`
 
+## Renders
+
+- `<Container>`
+- `<Link>`
+- `<NavLink>`
