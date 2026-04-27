@@ -24,3 +24,6 @@ Source: `src/components/Navbar.jsx` (67 lines)
 - `<Container>`
 - `<Link>`
 - `<NavLink>`
+- `<FaBars>`
+- `<RiCloseLargeFill>`
+
