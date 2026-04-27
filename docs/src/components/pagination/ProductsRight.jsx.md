@@ -27,3 +27,5 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 - `<BiSolidCategory>`
 - `<FaList>`
 - `<ProductCart>`
+- `<Pagination>`
+
