@@ -7,3 +7,6 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 - `react`
 - `../components/NewArrivals`
 - `../components/Banner`
+- `../components/Adds`
+- `../components/AddsTwo`
+- `../components/BestSeller`
