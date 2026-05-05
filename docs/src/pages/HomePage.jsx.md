@@ -10,3 +10,5 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 - `../components/Adds`
 - `../components/AddsTwo`
 - `../components/BestSeller`
+- `../components/SpeacialOffers`
+
