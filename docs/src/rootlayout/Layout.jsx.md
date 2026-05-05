@@ -7,3 +7,7 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 - `react`
 - `react-router-dom`
 - `../components/Navbar`
+- `../components/Fotter`
+- `../components/Header`
+- `../components/BacktoTop`
+
