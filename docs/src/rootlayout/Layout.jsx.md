@@ -15,3 +15,8 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 
 - `Layout`
 
+## Renders
+
+- `<Navbar>`
+- `<Header>`
+- `<Outlet>`
