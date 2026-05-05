@@ -11,3 +11,7 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 - `../components/Header`
 - `../components/BacktoTop`
 
+## Exports
+
+- `Layout`
+
