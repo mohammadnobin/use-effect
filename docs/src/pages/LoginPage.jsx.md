@@ -21,3 +21,8 @@ Source: `src/pages/LoginPage.jsx` (291 lines)
 - `useState`
 - `useNavigate`
 
+## Renders
+
+- `<Container>`
+- `<PageHeaderReuseable>`
+- `<Bars>`
