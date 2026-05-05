@@ -20,3 +20,7 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 - `<Navbar>`
 - `<Header>`
 - `<Outlet>`
+- `<ScrollRestoration>`
+- `<Fotter>`
+- `<BacktoTop>`
+
