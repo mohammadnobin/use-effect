@@ -6,3 +6,7 @@ Source: `src/components/ClickOutside.jsx` (74 lines)
 
 - `react`
 
+## Exports
+
+- `ClickOutside`
+
