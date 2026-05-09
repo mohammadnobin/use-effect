@@ -16,3 +16,8 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 
 - `HomePage`
 
+## Renders
+
+- `<Banner>`
+- `<Adds>`
+- `<NewArrivals>`
