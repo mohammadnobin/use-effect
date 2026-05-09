@@ -12,3 +12,7 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 - `../components/BestSeller`
 - `../components/SpeacialOffers`
 
+## Exports
+
+- `HomePage`
+
