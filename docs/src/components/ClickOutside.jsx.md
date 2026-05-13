@@ -10,3 +10,9 @@ Source: `src/components/ClickOutside.jsx` (74 lines)
 
 - `ClickOutside`
 
+## Hooks used
+
+- `useState`
+- `useRef`
+- `useEffect`
+
