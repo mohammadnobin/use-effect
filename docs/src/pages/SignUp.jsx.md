@@ -7,3 +7,6 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 - `react`
 - `../components/Container`
 - `../components/reuseable/PageHeaderReuseable`
+- `firebase/auth`
+- `firebase/database`
+- `react-loader-spinner`
