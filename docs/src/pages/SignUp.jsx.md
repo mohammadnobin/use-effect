@@ -17,3 +17,8 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 
 - `SignUp`
 
+## Hooks used
+
+- `useNavigate`
+- `useState`
+
