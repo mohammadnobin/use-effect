@@ -10,3 +10,6 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 - `firebase/auth`
 - `firebase/database`
 - `react-loader-spinner`
+- `react-toastify`
+- `react-router-dom`
+
