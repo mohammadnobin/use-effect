@@ -8,3 +8,7 @@ Source: `src/components/reuseable/ProductleftcatebrancolorResuable.jsx` (51 line
 - `react-icons/fa`
 - `react-icons/io`
 
+## Exports
+
+- `ProductleftcatebrancolorResuable`
+
