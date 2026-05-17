@@ -13,3 +13,7 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 - `react-toastify`
 - `react-router-dom`
 
+## Exports
+
+- `SignUp`
+
