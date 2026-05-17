@@ -21,3 +21,7 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 - `<Banner>`
 - `<Adds>`
 - `<NewArrivals>`
+- `<BestSeller>`
+- `<AddsTwo>`
+- `<SpeacialOffers>`
+
