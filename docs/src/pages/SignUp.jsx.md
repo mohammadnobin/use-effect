@@ -22,3 +22,8 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 - `useNavigate`
 - `useState`
 
+## Renders
+
+- `<Container>`
+- `<ToastContainer>`
+- `<PageHeaderReuseable>`
