@@ -10,3 +10,7 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 - `../components/Container`
 - `react-redux`
 
+## Exports
+
+- `CheckoutPage`
+
