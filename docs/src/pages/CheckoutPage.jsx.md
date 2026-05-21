@@ -7,3 +7,6 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 - `react`
 - `../components/reuseable/PageHeaderReuseable`
 - `../components/CheckOutForm`
+- `../components/Container`
+- `react-redux`
+
