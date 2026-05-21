@@ -7,3 +7,7 @@ Source: `src/index.css` (65 lines)
 - `::selection`
 - `.slick-dots .slick-active div`
 - `.nothing`
+- `.back-to-top`
+- `.back-to-top-button`
+- `.my_navber a.active`
+
