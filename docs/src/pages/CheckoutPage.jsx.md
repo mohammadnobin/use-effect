@@ -18,3 +18,9 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 
 - `useSelector`
 
+## Renders
+
+- `<Container>`
+- `<PageHeaderReuseable>`
+- `<CheckOutForm>`
+
