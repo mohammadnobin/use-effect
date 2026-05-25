@@ -7,3 +7,6 @@ Source: `src/components/Products.jsx` (33 lines)
 - `react`
 - `./Container`
 - `./Productsleft`
+- `./pagination/ProductsRight`
+- `./reuseable/PageHeaderReuseable`
+
