@@ -14,3 +14,7 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 
 - `CheckoutPage`
 
+## Hooks used
+
+- `useSelector`
+
