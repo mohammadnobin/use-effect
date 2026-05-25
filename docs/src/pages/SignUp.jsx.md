@@ -27,3 +27,5 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 - `<Container>`
 - `<ToastContainer>`
 - `<PageHeaderReuseable>`
+- `<Bars>`
+
