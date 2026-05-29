@@ -2,3 +2,7 @@
 
 Source: `src/components/pagination/Pagination.jsx` (161 lines)
 
+## Imports
+
+- `react`
+
