@@ -6,3 +6,7 @@ Source: `src/components/Container.jsx` (9 lines)
 
 - `react`
 
+## Exports
+
+- `Container`
+
