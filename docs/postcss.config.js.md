@@ -2,3 +2,7 @@
 
 Source: `postcss.config.js` (7 lines)
 
+## Exports
+
+- `default`
+
