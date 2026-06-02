@@ -18,3 +18,8 @@ Source: `src/components/Products.jsx` (33 lines)
 
 - `useState`
 
+## Renders
+
+- `<Container>`
+- `<PageHeaderReuseable>`
+- `<Productsleft>`
