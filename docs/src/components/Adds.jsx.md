@@ -10,3 +10,7 @@ Source: `src/components/Adds.jsx` (29 lines)
 - `../assets/Adds2.png`
 - `../assets/Adds3.png`
 
+## Exports
+
+- `Adds`
+
