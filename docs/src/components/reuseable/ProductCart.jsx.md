@@ -7,3 +7,6 @@ Source: `src/components/reuseable/ProductCart.jsx` (117 lines)
 - `react`
 - `react-icons/fa`
 - `react-icons/tfi`
+- `react-router-dom`
+- `react-redux`
+- `../slice/ProductSlice`
