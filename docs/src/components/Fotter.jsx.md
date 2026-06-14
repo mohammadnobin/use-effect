@@ -18,3 +18,5 @@ Source: `src/components/Fotter.jsx` (74 lines)
 - `<Container>`
 - `<FaFacebookF>`
 - `<FaLinkedinIn>`
+- `<FaInstagram>`
+
