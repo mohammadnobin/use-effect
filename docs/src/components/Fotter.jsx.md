@@ -9,3 +9,7 @@ Source: `src/components/Fotter.jsx` (74 lines)
 - `../assets/navlogo.png`
 - `react-icons/fa`
 
+## Exports
+
+- `Fotter`
+
