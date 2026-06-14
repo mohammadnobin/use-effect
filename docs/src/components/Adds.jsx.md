@@ -14,3 +14,7 @@ Source: `src/components/Adds.jsx` (29 lines)
 
 - `Adds`
 
+## Renders
+
+- `<Container>`
+

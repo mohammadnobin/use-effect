@@ -23,3 +23,5 @@ Source: `src/components/Products.jsx` (33 lines)
 - `<Container>`
 - `<PageHeaderReuseable>`
 - `<Productsleft>`
+- `<ProductsRight>`
+
