@@ -13,3 +13,8 @@ Source: `src/components/Fotter.jsx` (74 lines)
 
 - `Fotter`
 
+## Renders
+
+- `<Container>`
+- `<FaFacebookF>`
+- `<FaLinkedinIn>`
