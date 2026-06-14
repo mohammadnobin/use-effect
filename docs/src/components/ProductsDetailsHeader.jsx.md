@@ -10,3 +10,7 @@ Source: `src/components/ProductsDetailsHeader.jsx` (53 lines)
 - `react-redux`
 - `./slice/ProductSlice`
 
+## Exports
+
+- `ProductsDetailsHeader`
+
