@@ -7,3 +7,6 @@ Source: `src/components/ProductsDetailsHeader.jsx` (53 lines)
 - `react`
 - `./Container`
 - `react-router-dom`
+- `react-redux`
+- `./slice/ProductSlice`
+
