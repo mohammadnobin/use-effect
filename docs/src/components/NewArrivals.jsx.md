@@ -7,3 +7,7 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 - `react`
 - `./Container`
 - `react-slick`
+- `react-icons/fa`
+- `./ContextApi`
+- `./reuseable/ProductCart`
+
