@@ -7,3 +7,7 @@ Source: `src/components/BacktoTop.jsx` (41 lines)
 - `react-icons/io`
 - `react`
 
+## Exports
+
+- `BacktoTop`
+
