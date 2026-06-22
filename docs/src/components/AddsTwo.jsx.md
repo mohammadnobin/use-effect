@@ -12,3 +12,7 @@ Source: `src/components/AddsTwo.jsx` (15 lines)
 
 - `AddsTwo`
 
+## Renders
+
+- `<Container>`
+
