@@ -2,3 +2,8 @@
 
 Source: `src/pages/AboutPage.jsx` (29 lines)
 
+## Imports
+
+- `react`
+- `../components/Container`
+- `../components/reuseable/PageHeaderReuseable`
