@@ -6,3 +6,7 @@ Source: `tailwind.config.js` (35 lines)
 
 - `tailwind-scrollbar`
 
+## Exports
+
+- `default`
+

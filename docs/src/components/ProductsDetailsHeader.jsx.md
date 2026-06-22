@@ -18,3 +18,8 @@ Source: `src/components/ProductsDetailsHeader.jsx` (53 lines)
 
 - `useDispatch`
 
+## Renders
+
+- `<Container>`
+- `<Link>`
+
