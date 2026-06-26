@@ -15,3 +15,7 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 
 - `NewArrivals`
 
+## Hooks used
+
+- `useContext`
+
