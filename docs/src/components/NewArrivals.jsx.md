@@ -11,3 +11,7 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 - `./ContextApi`
 - `./reuseable/ProductCart`
 
+## Exports
+
+- `NewArrivals`
+
