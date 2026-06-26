@@ -27,3 +27,5 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 - `<SamplePrevArrow>`
 - `<Container>`
 - `<Slider>`
+- `<ProductCart>`
+
