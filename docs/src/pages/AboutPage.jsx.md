@@ -7,3 +7,6 @@ Source: `src/pages/AboutPage.jsx` (29 lines)
 - `react`
 - `../components/Container`
 - `../components/reuseable/PageHeaderReuseable`
+- `../assets/products.png`
+- `../components/reuseable/AboutCartReuseable`
+
