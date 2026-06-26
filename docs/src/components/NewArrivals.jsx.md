@@ -19,3 +19,8 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 
 - `useContext`
 
+## Renders
+
+- `<FaLongArrowAltRight>`
+- `<FaLongArrowAltLeft>`
+- `<SampleNextArrow>`
