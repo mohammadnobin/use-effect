@@ -24,3 +24,6 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 - `<FaLongArrowAltRight>`
 - `<FaLongArrowAltLeft>`
 - `<SampleNextArrow>`
+- `<SamplePrevArrow>`
+- `<Container>`
+- `<Slider>`
