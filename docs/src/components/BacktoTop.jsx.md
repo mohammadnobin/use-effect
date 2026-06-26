@@ -11,3 +11,8 @@ Source: `src/components/BacktoTop.jsx` (41 lines)
 
 - `BacktoTop`
 
+## Hooks used
+
+- `useState`
+- `useEffect`
+
