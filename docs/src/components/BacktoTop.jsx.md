@@ -20,3 +20,7 @@ Source: `src/components/BacktoTop.jsx` (41 lines)
 
 - `<IoIosArrowUp>`
 
+## Outline
+
+- `BacktoTop` (const) - line 3
+
