@@ -25,3 +25,7 @@ Source: `src/components/Products.jsx` (33 lines)
 - `<Productsleft>`
 - `<ProductsRight>`
 
+## Outline
+
+- `Products` (const) - line 7
+
