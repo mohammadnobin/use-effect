@@ -16,3 +16,11 @@ Source: `src/components/Apps.jsx` (54 lines)
 - `useRef`
 - `useEffect`
 
+## Outline
+
+- `Apps` (const) - line 3
+
+## Imported by
+
+Not imported by any other source file (entry point or standalone).
+
