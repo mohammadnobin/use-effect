@@ -27,3 +27,7 @@ Source: `src/components/reuseable/ProductCart.jsx` (117 lines)
 - `<TfiReload>`
 - `<FaShoppingCart>`
 
+## Outline
+
+- `ProductCart` (const) - line 11
+
