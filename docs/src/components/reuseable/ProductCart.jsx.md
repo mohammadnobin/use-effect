@@ -31,3 +31,10 @@ Source: `src/components/reuseable/ProductCart.jsx` (117 lines)
 
 - `ProductCart` (const) - line 11
 
+## Imported by
+
+- `src/components/BestSeller.jsx`
+- `src/components/NewArrivals.jsx`
+- `src/components/SpeacialOffers.jsx`
+- `src/components/pagination/ProductsRight.jsx`
+
