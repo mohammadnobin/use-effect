@@ -29,3 +29,7 @@ Source: `src/pages/SignUp.jsx` (343 lines)
 - `<PageHeaderReuseable>`
 - `<Bars>`
 
+## Outline
+
+- `SignUp` (const) - line 14
+

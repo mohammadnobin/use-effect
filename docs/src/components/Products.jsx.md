@@ -29,3 +29,7 @@ Source: `src/components/Products.jsx` (33 lines)
 
 - `Products` (const) - line 7
 
+## Imported by
+
+- `src/pages/ShopPage.jsx`
+
