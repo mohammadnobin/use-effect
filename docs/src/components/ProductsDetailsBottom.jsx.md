@@ -17,3 +17,11 @@ Source: `src/components/ProductsDetailsBottom.jsx` (81 lines)
 
 - `<FromReuseable>`
 
+## Outline
+
+- `ProductsDetailsBottom` (const) - line 6
+
+## Imported by
+
+- `src/components/ProductDatails.jsx`
+
