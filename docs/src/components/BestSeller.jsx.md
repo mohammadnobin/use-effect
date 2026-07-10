@@ -25,3 +25,7 @@ Source: `src/components/BestSeller.jsx` (27 lines)
 
 - `BestSeller` (const) - line 9
 
+## Imported by
+
+- `src/pages/HomePage.jsx`
+
