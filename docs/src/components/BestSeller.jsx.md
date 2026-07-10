@@ -21,3 +21,7 @@ Source: `src/components/BestSeller.jsx` (27 lines)
 - `<Container>`
 - `<ProductCart>`
 
+## Outline
+
+- `BestSeller` (const) - line 9
+

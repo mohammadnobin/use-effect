@@ -24,3 +24,7 @@ Source: `src/components/BacktoTop.jsx` (41 lines)
 
 - `BacktoTop` (const) - line 3
 
+## Imported by
+
+- `src/rootlayout/Layout.jsx`
+
