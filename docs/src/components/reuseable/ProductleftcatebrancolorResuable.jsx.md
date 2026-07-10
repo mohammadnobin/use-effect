@@ -18,3 +18,11 @@ Source: `src/components/reuseable/ProductleftcatebrancolorResuable.jsx` (51 line
 - `<IoMdArrowDropdown>`
 - `<FaPlus>`
 
+## Outline
+
+- `ProductleftcatebrancolorResuable` (const) - line 5
+
+## Imported by
+
+- `src/components/Productsleft.jsx`
+
