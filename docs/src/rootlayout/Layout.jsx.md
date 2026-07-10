@@ -24,3 +24,11 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 - `<Fotter>`
 - `<BacktoTop>`
 
+## Outline
+
+- `Layout` (const) - line 9
+
+## Imported by
+
+- `src/App.jsx`
+

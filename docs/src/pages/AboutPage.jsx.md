@@ -24,3 +24,7 @@ Source: `src/pages/AboutPage.jsx` (29 lines)
 
 - `AboutPage` (const) - line 7
 
+## Imported by
+
+- `src/App.jsx`
+
