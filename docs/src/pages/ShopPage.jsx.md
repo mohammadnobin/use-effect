@@ -15,3 +15,7 @@ Source: `src/pages/ShopPage.jsx` (13 lines)
 
 - `<Products>`
 
+## Outline
+
+- `ShopPage` (const) - line 4
+
