@@ -10,3 +10,11 @@ Source: `src/components/CheckOutForm.jsx` (105 lines)
 
 - `CheckOutForm`
 
+## Outline
+
+- `CheckOutForm` (const) - line 3
+
+## Imported by
+
+- `src/pages/CheckoutPage.jsx`
+
