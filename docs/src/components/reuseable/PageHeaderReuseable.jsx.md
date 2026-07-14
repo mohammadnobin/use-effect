@@ -17,3 +17,7 @@ Source: `src/components/reuseable/PageHeaderReuseable.jsx` (29 lines)
 - `<Link>`
 - `<IoIosArrowBack>`
 
+## Outline
+
+- `PageHeaderReuseable` (const) - line 5
+
