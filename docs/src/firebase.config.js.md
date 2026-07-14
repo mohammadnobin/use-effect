@@ -10,3 +10,8 @@ Source: `src/firebase.config.js` (20 lines)
 
 - `firebaseConfig`
 
+## Outline
+
+- `firebaseConfig` (const) - line 7
+- `app` (const) - line 17
+
