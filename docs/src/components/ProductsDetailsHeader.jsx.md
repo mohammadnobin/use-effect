@@ -23,3 +23,7 @@ Source: `src/components/ProductsDetailsHeader.jsx` (53 lines)
 - `<Container>`
 - `<Link>`
 
+## Outline
+
+- `ProductsDetailsHeader` (const) - line 6
+
