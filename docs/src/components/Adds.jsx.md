@@ -18,3 +18,7 @@ Source: `src/components/Adds.jsx` (29 lines)
 
 - `<Container>`
 
+## Outline
+
+- `Adds` (const) - line 7
+
