@@ -15,3 +15,7 @@ Source: `src/components/ProductsDetailsTop.jsx` (21 lines)
 
 - `<PageHeaderReuseable>`
 
+## Outline
+
+- `ProductsDetailsTop` (const) - line 4
+
