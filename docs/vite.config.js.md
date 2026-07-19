@@ -11,3 +11,7 @@ Source: `vite.config.js` (8 lines)
 
 - `defineConfig`
 
+## Imported by
+
+Not imported by any other source file (entry point or standalone).
+

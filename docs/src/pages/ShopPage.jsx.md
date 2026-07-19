@@ -19,3 +19,7 @@ Source: `src/pages/ShopPage.jsx` (13 lines)
 
 - `ShopPage` (const) - line 4
 
+## Imported by
+
+- `src/App.jsx`
+
