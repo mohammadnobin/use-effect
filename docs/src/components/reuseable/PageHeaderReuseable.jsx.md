@@ -21,3 +21,15 @@ Source: `src/components/reuseable/PageHeaderReuseable.jsx` (29 lines)
 
 - `PageHeaderReuseable` (const) - line 5
 
+## Imported by
+
+- `src/components/Products.jsx`
+- `src/components/ProductsDetailsTop.jsx`
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/LoginPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+- `src/pages/SignUp.jsx`
+
