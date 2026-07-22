@@ -37,3 +37,13 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 
 - `src/components/Products.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 181 | 13 | 0 | 168 |
+
+## Related files
+
+- `src/components/pagination/Pagination.jsx`
+
