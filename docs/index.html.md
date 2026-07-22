@@ -12,3 +12,15 @@ Page title: **Vite + React**
 
 Not imported by any other source file (entry point or standalone).
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 16 | 1 | 1 | 14 |
+
+## Related files
+
+- `postcss.config.js`
+- `tailwind.config.js`
+- `vite.config.js`
+
