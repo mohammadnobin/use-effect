@@ -40,3 +40,20 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 149 | 6 | 0 | 143 |
+
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/ErrorPage.jsx`
+- `src/pages/HomePage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/LoginPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+
