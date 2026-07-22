@@ -55,3 +55,20 @@ Source: `src/components/Copy.jsx` (244 lines)
 
 Not imported by any other source file (entry point or standalone).
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 244 | 36 | 0 | 208 |
+
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+
