@@ -11,3 +11,7 @@ Source: `src/components/slice/ProductSlice.js` (43 lines)
 - `ProductSlice`
 - `const`
 
+## Outline
+
+- `ProductSlice` (const) - line 3
+
