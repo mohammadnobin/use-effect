@@ -27,3 +27,7 @@ Source: `src/components/ProductsDetailsHeader.jsx` (53 lines)
 
 - `ProductsDetailsHeader` (const) - line 6
 
+## Imported by
+
+- `src/components/ProductDatails.jsx`
+
