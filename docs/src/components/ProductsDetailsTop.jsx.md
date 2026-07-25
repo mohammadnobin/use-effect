@@ -19,3 +19,7 @@ Source: `src/components/ProductsDetailsTop.jsx` (21 lines)
 
 - `ProductsDetailsTop` (const) - line 4
 
+## Imported by
+
+- `src/components/ProductDatails.jsx`
+
