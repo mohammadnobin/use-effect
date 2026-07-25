@@ -22,3 +22,7 @@ Source: `src/components/Adds.jsx` (29 lines)
 
 - `Adds` (const) - line 7
 
+## Imported by
+
+- `src/pages/HomePage.jsx`
+
