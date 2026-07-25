@@ -15,3 +15,12 @@ Source: `src/components/slice/ProductSlice.js` (43 lines)
 
 - `ProductSlice` (const) - line 3
 
+## Imported by
+
+- `src/Store.js`
+- `src/components/Header.jsx`
+- `src/components/ProductsDetailsHeader.jsx`
+- `src/components/ProductsDetailsMeddle.jsx`
+- `src/components/reuseable/ProductCart.jsx`
+- `src/pages/CartPage.jsx`
+
