@@ -10,3 +10,7 @@ Source: `tailwind.config.js` (35 lines)
 
 - `default`
 
+## Imported by
+
+Not imported by any other source file (entry point or standalone).
+
