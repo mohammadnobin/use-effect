@@ -20,3 +20,11 @@ Source: `src/components/Fotter.jsx` (74 lines)
 - `<FaLinkedinIn>`
 - `<FaInstagram>`
 
+## Outline
+
+- `Fotter` (const) - line 7
+
+## Imported by
+
+- `src/rootlayout/Layout.jsx`
+
