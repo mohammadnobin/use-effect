@@ -32,3 +32,7 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 - `<FaPlus>`
 - `<Link>`
 
+## Outline
+
+- `CartPage` (const) - line 13
+
