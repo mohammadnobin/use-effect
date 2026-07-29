@@ -27,3 +27,11 @@ Source: `src/components/Navbar.jsx` (67 lines)
 - `<FaBars>`
 - `<RiCloseLargeFill>`
 
+## Outline
+
+- `Navbar` (const) - line 9
+
+## Imported by
+
+- `src/rootlayout/Layout.jsx`
+

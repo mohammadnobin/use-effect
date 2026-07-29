@@ -11,3 +11,7 @@ Source: `src/Store.js` (8 lines)
 
 - `configureStore`
 
+## Imported by
+
+- `src/main.jsx`
+
