@@ -29,3 +29,7 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 
 - `HomePage` (const) - line 9
 
+## Imported by
+
+- `src/App.jsx`
+
