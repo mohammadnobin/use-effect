@@ -10,3 +10,7 @@ Source: `src/pages/JournalPage.jsx` (9 lines)
 
 - `JournalPage`
 
+## Outline
+
+- `JournalPage` (const) - line 3
+
