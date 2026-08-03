@@ -28,3 +28,7 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 
 - `CheckoutPage` (const) - line 7
 
+## Imported by
+
+- `src/App.jsx`
+

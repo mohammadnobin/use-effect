@@ -40,3 +40,11 @@ Source: `src/components/Header.jsx` (291 lines)
 - `<FaShoppingCart>`
 - `<RiCloseLargeFill>`
 
+## Outline
+
+- `Header` (let) - line 12
+
+## Imported by
+
+- `src/rootlayout/Layout.jsx`
+

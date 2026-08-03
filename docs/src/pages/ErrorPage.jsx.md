@@ -19,3 +19,7 @@ Source: `src/pages/ErrorPage.jsx` (66 lines)
 - `<FaSearch>`
 - `<Link>`
 
+## Outline
+
+- `ErrorPage` (const) - line 6
+
