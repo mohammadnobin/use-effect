@@ -25,3 +25,7 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 - `<AddsTwo>`
 - `<SpeacialOffers>`
 
+## Outline
+
+- `HomePage` (const) - line 9
+
