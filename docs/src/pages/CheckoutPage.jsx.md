@@ -24,3 +24,7 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 - `<PageHeaderReuseable>`
 - `<CheckOutForm>`
 
+## Outline
+
+- `CheckoutPage` (const) - line 7
+
