@@ -28,3 +28,7 @@ Source: `src/pages/LoginPage.jsx` (291 lines)
 - `<Bars>`
 - `<ToastContainer>`
 
+## Outline
+
+- `LoginPage` (const) - line 9
+
