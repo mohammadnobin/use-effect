@@ -14,3 +14,7 @@ Source: `src/pages/JournalPage.jsx` (9 lines)
 
 - `JournalPage` (const) - line 3
 
+## Imported by
+
+- `src/App.jsx`
+

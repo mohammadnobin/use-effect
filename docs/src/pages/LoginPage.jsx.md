@@ -32,3 +32,7 @@ Source: `src/pages/LoginPage.jsx` (291 lines)
 
 - `LoginPage` (const) - line 9
 
+## Imported by
+
+- `src/App.jsx`
+
