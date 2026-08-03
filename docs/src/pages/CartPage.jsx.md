@@ -36,3 +36,7 @@ Source: `src/pages/CartPage.jsx` (149 lines)
 
 - `CartPage` (const) - line 13
 
+## Imported by
+
+- `src/App.jsx`
+
