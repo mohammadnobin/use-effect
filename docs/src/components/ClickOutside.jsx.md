@@ -20,3 +20,7 @@ Source: `src/components/ClickOutside.jsx` (74 lines)
 
 - `ClickOutside` (const) - line 3
 
+## Imported by
+
+Not imported by any other source file (entry point or standalone).
+

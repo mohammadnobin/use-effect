@@ -24,3 +24,11 @@ Source: `src/components/Banner.jsx` (101 lines)
 - `<MdLocalShipping>`
 - `<SlReload>`
 
+## Outline
+
+- `Banner` (const) - line 9
+
+## Imported by
+
+- `src/pages/HomePage.jsx`
+
