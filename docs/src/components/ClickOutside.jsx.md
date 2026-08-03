@@ -16,3 +16,7 @@ Source: `src/components/ClickOutside.jsx` (74 lines)
 - `useRef`
 - `useEffect`
 
+## Outline
+
+- `ClickOutside` (const) - line 3
+
