@@ -18,3 +18,7 @@ Source: `src/main.jsx` (19 lines)
 - `<Provider>`
 - `<App>`
 
+## Imported by
+
+Not imported by any other source file (entry point or standalone).
+
