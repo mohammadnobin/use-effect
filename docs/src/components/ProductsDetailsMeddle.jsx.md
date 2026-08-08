@@ -33,3 +33,7 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 - `<FaPlus>`
 - `<Link>`
 
+## Outline
+
+- `ProductsDetailsMeddle` (const) - line 14
+
