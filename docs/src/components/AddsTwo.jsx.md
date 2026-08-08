@@ -16,3 +16,7 @@ Source: `src/components/AddsTwo.jsx` (15 lines)
 
 - `<Container>`
 
+## Outline
+
+- `AddsTwo` (const) - line 5
+

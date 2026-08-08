@@ -37,3 +37,7 @@ Source: `src/components/ProductsDetailsMeddle.jsx` (188 lines)
 
 - `ProductsDetailsMeddle` (const) - line 14
 
+## Imported by
+
+- `src/components/ProductDatails.jsx`
+
