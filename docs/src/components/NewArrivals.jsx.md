@@ -29,3 +29,9 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 - `<Slider>`
 - `<ProductCart>`
 
+## Outline
+
+- `SampleNextArrow` (function) - line 8
+- `SamplePrevArrow` (function) - line 20
+- `NewArrivals` (const) - line 32
+
