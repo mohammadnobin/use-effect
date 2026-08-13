@@ -10,3 +10,11 @@ Source: `src/components/reuseable/AboutCartReuseable.jsx` (14 lines)
 
 - `AboutCartReuseable`
 
+## Outline
+
+- `AboutCartReuseable` (const) - line 3
+
+## Imported by
+
+- `src/pages/AboutPage.jsx`
+
