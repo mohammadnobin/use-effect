@@ -35,3 +35,7 @@ Source: `src/components/NewArrivals.jsx` (99 lines)
 - `SamplePrevArrow` (function) - line 20
 - `NewArrivals` (const) - line 32
 
+## Imported by
+
+- `src/pages/HomePage.jsx`
+
