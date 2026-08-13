@@ -25,3 +25,7 @@ Source: `src/components/SpeacialOffers.jsx` (48 lines)
 
 - `SpeacialOffers` (const) - line 9
 
+## Imported by
+
+- `src/pages/HomePage.jsx`
+
