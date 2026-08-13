@@ -23,3 +23,7 @@ Source: `src/pages/ContactsPage.jsx` (22 lines)
 
 - `ContactsPage` (const) - line 6
 
+## Imported by
+
+- `src/App.jsx`
+
