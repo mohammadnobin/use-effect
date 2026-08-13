@@ -19,3 +19,7 @@ Source: `src/pages/ContactsPage.jsx` (22 lines)
 - `<PageHeaderReuseable>`
 - `<FromReuseable>`
 
+## Outline
+
+- `ContactsPage` (const) - line 6
+
