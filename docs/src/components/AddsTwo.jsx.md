@@ -20,3 +20,7 @@ Source: `src/components/AddsTwo.jsx` (15 lines)
 
 - `AddsTwo` (const) - line 5
 
+## Imported by
+
+- `src/pages/HomePage.jsx`
+
