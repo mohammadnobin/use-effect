@@ -21,3 +21,7 @@ Source: `src/components/SpeacialOffers.jsx` (48 lines)
 - `<Container>`
 - `<ProductCart>`
 
+## Outline
+
+- `SpeacialOffers` (const) - line 9
+
