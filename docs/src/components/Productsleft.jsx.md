@@ -29,3 +29,7 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 - `<IoMdArrowDropdown>`
 - `<FaPlus>`
 
+## Outline
+
+- `Productsleft` (const) - line 8
+
