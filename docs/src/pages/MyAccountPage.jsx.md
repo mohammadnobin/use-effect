@@ -21,3 +21,7 @@ Source: `src/pages/MyAccountPage.jsx` (33 lines)
 
 - `MyAccountPage` (const) - line 5
 
+## Imported by
+
+- `src/App.jsx`
+
