@@ -35,3 +35,7 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 
 - `ProductDatails` (const) - line 12
 
+## Imported by
+
+- `src/App.jsx`
+
