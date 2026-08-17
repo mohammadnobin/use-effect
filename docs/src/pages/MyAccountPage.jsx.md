@@ -17,3 +17,7 @@ Source: `src/pages/MyAccountPage.jsx` (33 lines)
 - `<Container>`
 - `<PageHeaderReuseable>`
 
+## Outline
+
+- `MyAccountPage` (const) - line 5
+
