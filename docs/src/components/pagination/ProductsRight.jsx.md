@@ -29,3 +29,7 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 - `<ProductCart>`
 - `<Pagination>`
 
+## Outline
+
+- `ProductsRight` (const) - line 10
+
