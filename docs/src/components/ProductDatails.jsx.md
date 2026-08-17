@@ -31,3 +31,7 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 - `<ProductsDetailsMeddle>`
 - `<ProductsDetailsBottom>`
 
+## Outline
+
+- `ProductDatails` (const) - line 12
+

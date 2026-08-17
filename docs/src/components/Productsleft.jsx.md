@@ -33,3 +33,7 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 
 - `Productsleft` (const) - line 8
 
+## Imported by
+
+- `src/components/Products.jsx`
+
