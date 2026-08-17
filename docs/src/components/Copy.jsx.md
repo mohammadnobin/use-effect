@@ -46,3 +46,12 @@ Source: `src/components/Copy.jsx` (244 lines)
 - `<MyButton>`
 - `<Link>`
 
+## Outline
+
+- `MyInput` (const) - line 27
+- `Registration` (const) - line 43
+
+## Imported by
+
+Not imported by any other source file (entry point or standalone).
+
