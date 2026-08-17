@@ -42,3 +42,8 @@ Source: `src/App.jsx` (41 lines)
 - `<ErrorPage>`
 - `<RouterProvider>`
 
+## Outline
+
+- `router` (let) - line 17
+- `App` (const) - line 33
+
