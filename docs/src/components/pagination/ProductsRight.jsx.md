@@ -33,3 +33,7 @@ Source: `src/components/pagination/ProductsRight.jsx` (181 lines)
 
 - `ProductsRight` (const) - line 10
 
+## Imported by
+
+- `src/components/Products.jsx`
+
