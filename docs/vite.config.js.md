@@ -15,3 +15,9 @@ Source: `vite.config.js` (8 lines)
 
 Not imported by any other source file (entry point or standalone).
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 8 | 2 | 1 | 5 |
+
