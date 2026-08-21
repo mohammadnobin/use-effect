@@ -37,3 +37,9 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 
 - `src/components/Products.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 130 | 14 | 0 | 116 |
+
