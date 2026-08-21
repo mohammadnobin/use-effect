@@ -26,3 +26,9 @@ Source: `src/components/Adds.jsx` (29 lines)
 
 - `src/pages/HomePage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 29 | 2 | 0 | 27 |
+
