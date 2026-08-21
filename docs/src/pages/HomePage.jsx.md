@@ -33,3 +33,9 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 23 | 3 | 0 | 20 |
+
