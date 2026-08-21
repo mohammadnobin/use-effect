@@ -39,3 +39,14 @@ Source: `src/pages/HomePage.jsx` (23 lines)
 | --- | --- | --- | --- |
 | 23 | 3 | 0 | 20 |
 
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/ErrorPage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/LoginPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+
