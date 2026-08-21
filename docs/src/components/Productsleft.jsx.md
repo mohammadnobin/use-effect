@@ -43,3 +43,14 @@ Source: `src/components/Productsleft.jsx` (130 lines)
 | --- | --- | --- | --- |
 | 130 | 14 | 0 | 116 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+
