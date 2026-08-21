@@ -32,3 +32,14 @@ Source: `src/components/Adds.jsx` (29 lines)
 | --- | --- | --- | --- |
 | 29 | 2 | 0 | 27 |
 
+## Related files
+
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+- `src/components/Container.jsx`
+
