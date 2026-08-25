@@ -32,3 +32,9 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 22 | 2 | 0 | 20 |
+
