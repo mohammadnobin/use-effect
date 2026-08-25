@@ -38,3 +38,9 @@ Source: `src/components/reuseable/ProductCart.jsx` (117 lines)
 - `src/components/SpeacialOffers.jsx`
 - `src/components/pagination/ProductsRight.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 117 | 6 | 1 | 110 |
+
