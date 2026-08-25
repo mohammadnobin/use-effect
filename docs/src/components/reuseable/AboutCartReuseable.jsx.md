@@ -24,3 +24,10 @@ Source: `src/components/reuseable/AboutCartReuseable.jsx` (14 lines)
 | --- | --- | --- | --- |
 | 14 | 2 | 0 | 12 |
 
+## Related files
+
+- `src/components/reuseable/FromReuseable.jsx`
+- `src/components/reuseable/PageHeaderReuseable.jsx`
+- `src/components/reuseable/ProductCart.jsx`
+- `src/components/reuseable/ProductleftcatebrancolorResuable.jsx`
+
