@@ -18,3 +18,9 @@ Source: `src/components/reuseable/AboutCartReuseable.jsx` (14 lines)
 
 - `src/pages/AboutPage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 14 | 2 | 0 | 12 |
+
