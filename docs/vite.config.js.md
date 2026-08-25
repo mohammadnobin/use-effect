@@ -21,3 +21,9 @@ Not imported by any other source file (entry point or standalone).
 | --- | --- | --- | --- |
 | 8 | 2 | 1 | 5 |
 
+## Related files
+
+- `index.html`
+- `postcss.config.js`
+- `tailwind.config.js`
+
