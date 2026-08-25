@@ -44,3 +44,10 @@ Source: `src/components/reuseable/ProductCart.jsx` (117 lines)
 | --- | --- | --- | --- |
 | 117 | 6 | 1 | 110 |
 
+## Related files
+
+- `src/components/reuseable/AboutCartReuseable.jsx`
+- `src/components/reuseable/FromReuseable.jsx`
+- `src/components/reuseable/PageHeaderReuseable.jsx`
+- `src/components/reuseable/ProductleftcatebrancolorResuable.jsx`
+
