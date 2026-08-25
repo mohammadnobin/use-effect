@@ -29,3 +29,9 @@ Source: `src/components/SpeacialOffers.jsx` (48 lines)
 
 - `src/pages/HomePage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 48 | 3 | 0 | 45 |
+
