@@ -34,3 +34,14 @@ Source: `src/components/BacktoTop.jsx` (41 lines)
 | --- | --- | --- | --- |
 | 41 | 4 | 2 | 35 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+- `src/components/Container.jsx`
+
