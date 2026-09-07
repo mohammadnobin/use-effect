@@ -32,3 +32,10 @@ Source: `src/components/reuseable/ProductleftcatebrancolorResuable.jsx` (51 line
 | --- | --- | --- | --- |
 | 51 | 5 | 0 | 46 |
 
+## Related files
+
+- `src/components/reuseable/AboutCartReuseable.jsx`
+- `src/components/reuseable/FromReuseable.jsx`
+- `src/components/reuseable/PageHeaderReuseable.jsx`
+- `src/components/reuseable/ProductCart.jsx`
+
