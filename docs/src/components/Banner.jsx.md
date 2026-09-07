@@ -32,3 +32,9 @@ Source: `src/components/Banner.jsx` (101 lines)
 
 - `src/pages/HomePage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 101 | 3 | 0 | 98 |
+
