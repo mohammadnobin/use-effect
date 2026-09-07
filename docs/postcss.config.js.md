@@ -16,3 +16,9 @@ Not imported by any other source file (entry point or standalone).
 | --- | --- | --- | --- |
 | 7 | 1 | 0 | 6 |
 
+## Related files
+
+- `index.html`
+- `tailwind.config.js`
+- `vite.config.js`
+
