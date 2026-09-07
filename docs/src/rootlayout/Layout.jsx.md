@@ -38,3 +38,7 @@ Source: `src/rootlayout/Layout.jsx` (22 lines)
 | --- | --- | --- | --- |
 | 22 | 2 | 0 | 20 |
 
+## Related files
+
+No other source files in this folder.
+
