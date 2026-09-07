@@ -28,3 +28,9 @@ Source: `src/components/BacktoTop.jsx` (41 lines)
 
 - `src/rootlayout/Layout.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 41 | 4 | 2 | 35 |
+
