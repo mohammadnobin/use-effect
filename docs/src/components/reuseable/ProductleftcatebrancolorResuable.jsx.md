@@ -26,3 +26,9 @@ Source: `src/components/reuseable/ProductleftcatebrancolorResuable.jsx` (51 line
 
 - `src/components/Productsleft.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 51 | 5 | 0 | 46 |
+
