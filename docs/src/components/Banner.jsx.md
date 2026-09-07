@@ -38,3 +38,14 @@ Source: `src/components/Banner.jsx` (101 lines)
 | --- | --- | --- | --- |
 | 101 | 3 | 0 | 98 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+- `src/components/Container.jsx`
+
