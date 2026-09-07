@@ -35,3 +35,14 @@ Source: `src/components/SpeacialOffers.jsx` (48 lines)
 | --- | --- | --- | --- |
 | 48 | 3 | 0 | 45 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+
