@@ -32,3 +32,9 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 31 | 2 | 0 | 29 |
+
