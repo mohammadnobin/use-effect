@@ -26,3 +26,9 @@ Source: `src/index.css` (65 lines)
 
 - `src/main.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 65 | 6 | 2 | 57 |
+
