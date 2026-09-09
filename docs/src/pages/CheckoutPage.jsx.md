@@ -38,3 +38,14 @@ Source: `src/pages/CheckoutPage.jsx` (31 lines)
 | --- | --- | --- | --- |
 | 31 | 2 | 0 | 29 |
 
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/ErrorPage.jsx`
+- `src/pages/HomePage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/LoginPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+
