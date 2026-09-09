@@ -23,3 +23,9 @@ Source: `src/components/ProductsDetailsTop.jsx` (21 lines)
 
 - `src/components/ProductDatails.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 21 | 2 | 0 | 19 |
+
