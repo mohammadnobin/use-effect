@@ -32,3 +32,11 @@ Source: `src/index.css` (65 lines)
 | --- | --- | --- | --- |
 | 65 | 6 | 2 | 57 |
 
+## Related files
+
+- `src/App.css`
+- `src/App.jsx`
+- `src/Store.js`
+- `src/firebase.config.js`
+- `src/main.jsx`
+
