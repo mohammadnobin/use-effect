@@ -27,3 +27,9 @@ Source: `src/pages/ErrorPage.jsx` (66 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 66 | 6 | 30 | 30 |
+
