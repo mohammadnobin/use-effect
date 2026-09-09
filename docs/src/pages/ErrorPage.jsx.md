@@ -33,3 +33,14 @@ Source: `src/pages/ErrorPage.jsx` (66 lines)
 | --- | --- | --- | --- |
 | 66 | 6 | 30 | 30 |
 
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/HomePage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/LoginPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+
