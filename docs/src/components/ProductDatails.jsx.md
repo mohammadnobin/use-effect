@@ -39,3 +39,9 @@ Source: `src/components/ProductDatails.jsx` (38 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 38 | 5 | 0 | 33 |
+
