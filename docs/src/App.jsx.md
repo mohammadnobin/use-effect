@@ -57,3 +57,11 @@ Source: `src/App.jsx` (41 lines)
 | --- | --- | --- | --- |
 | 41 | 2 | 0 | 39 |
 
+## Related files
+
+- `src/App.css`
+- `src/Store.js`
+- `src/firebase.config.js`
+- `src/index.css`
+- `src/main.jsx`
+
