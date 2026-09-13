@@ -24,3 +24,9 @@ Source: `src/components/slice/ProductSlice.js` (43 lines)
 - `src/components/reuseable/ProductCart.jsx`
 - `src/pages/CartPage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 43 | 4 | 0 | 39 |
+
