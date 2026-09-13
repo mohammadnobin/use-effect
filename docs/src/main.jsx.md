@@ -22,3 +22,9 @@ Source: `src/main.jsx` (19 lines)
 
 Not imported by any other source file (entry point or standalone).
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 19 | 2 | 0 | 17 |
+
