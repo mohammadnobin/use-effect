@@ -28,3 +28,11 @@ Not imported by any other source file (entry point or standalone).
 | --- | --- | --- | --- |
 | 19 | 2 | 0 | 17 |
 
+## Related files
+
+- `src/App.css`
+- `src/App.jsx`
+- `src/Store.js`
+- `src/firebase.config.js`
+- `src/index.css`
+
