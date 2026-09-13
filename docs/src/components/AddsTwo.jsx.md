@@ -24,3 +24,9 @@ Source: `src/components/AddsTwo.jsx` (15 lines)
 
 - `src/pages/HomePage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 15 | 2 | 0 | 13 |
+
