@@ -30,3 +30,7 @@ Source: `src/components/slice/ProductSlice.js` (43 lines)
 | --- | --- | --- | --- |
 | 43 | 4 | 0 | 39 |
 
+## Related files
+
+No other source files in this folder.
+
