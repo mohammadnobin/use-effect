@@ -42,3 +42,14 @@ Source: `src/pages/LoginPage.jsx` (291 lines)
 | --- | --- | --- | --- |
 | 291 | 15 | 107 | 169 |
 
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/ErrorPage.jsx`
+- `src/pages/HomePage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+
