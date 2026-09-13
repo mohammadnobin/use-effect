@@ -33,3 +33,9 @@ Source: `src/components/reuseable/PageHeaderReuseable.jsx` (29 lines)
 - `src/pages/MyAccountPage.jsx`
 - `src/pages/SignUp.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 29 | 5 | 0 | 24 |
+
