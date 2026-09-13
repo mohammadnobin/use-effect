@@ -36,3 +36,9 @@ Source: `src/pages/LoginPage.jsx` (291 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 291 | 15 | 107 | 169 |
+
