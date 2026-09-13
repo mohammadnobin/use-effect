@@ -51,3 +51,9 @@ Source: `src/App.jsx` (41 lines)
 
 - `src/main.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 41 | 2 | 0 | 39 |
+
