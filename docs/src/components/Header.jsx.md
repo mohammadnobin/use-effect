@@ -48,3 +48,9 @@ Source: `src/components/Header.jsx` (291 lines)
 
 - `src/rootlayout/Layout.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 291 | 7 | 22 | 262 |
+
