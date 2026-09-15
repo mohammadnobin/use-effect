@@ -39,3 +39,10 @@ Source: `src/components/reuseable/PageHeaderReuseable.jsx` (29 lines)
 | --- | --- | --- | --- |
 | 29 | 5 | 0 | 24 |
 
+## Related files
+
+- `src/components/reuseable/AboutCartReuseable.jsx`
+- `src/components/reuseable/FromReuseable.jsx`
+- `src/components/reuseable/ProductCart.jsx`
+- `src/components/reuseable/ProductleftcatebrancolorResuable.jsx`
+
