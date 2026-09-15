@@ -29,3 +29,9 @@ Source: `src/components/BestSeller.jsx` (27 lines)
 
 - `src/pages/HomePage.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 27 | 2 | 0 | 25 |
+
