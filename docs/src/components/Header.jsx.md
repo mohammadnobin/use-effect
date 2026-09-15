@@ -54,3 +54,14 @@ Source: `src/components/Header.jsx` (291 lines)
 | --- | --- | --- | --- |
 | 291 | 7 | 22 | 262 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+
