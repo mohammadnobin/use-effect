@@ -30,3 +30,14 @@ Source: `src/components/AddsTwo.jsx` (15 lines)
 | --- | --- | --- | --- |
 | 15 | 2 | 0 | 13 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/BestSeller.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+- `src/components/Container.jsx`
+
