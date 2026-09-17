@@ -19,3 +19,17 @@ Source: `src/firebase.config.js` (20 lines)
 
 - `src/main.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 20 | 4 | 5 | 11 |
+
+## Related files
+
+- `src/App.css`
+- `src/App.jsx`
+- `src/Store.js`
+- `src/index.css`
+- `src/main.jsx`
+
