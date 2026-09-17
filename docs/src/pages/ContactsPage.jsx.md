@@ -33,3 +33,14 @@ Source: `src/pages/ContactsPage.jsx` (22 lines)
 | --- | --- | --- | --- |
 | 22 | 2 | 0 | 20 |
 
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ErrorPage.jsx`
+- `src/pages/HomePage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/LoginPage.jsx`
+- `src/pages/MyAccountPage.jsx`
+
