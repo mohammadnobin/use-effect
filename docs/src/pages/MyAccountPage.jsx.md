@@ -25,3 +25,9 @@ Source: `src/pages/MyAccountPage.jsx` (33 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 33 | 2 | 0 | 31 |
+
