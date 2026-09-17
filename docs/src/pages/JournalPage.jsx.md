@@ -18,3 +18,9 @@ Source: `src/pages/JournalPage.jsx` (9 lines)
 
 - `src/App.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 9 | 2 | 0 | 7 |
+
