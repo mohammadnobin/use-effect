@@ -35,3 +35,14 @@ Source: `src/components/BestSeller.jsx` (27 lines)
 | --- | --- | --- | --- |
 | 27 | 2 | 0 | 25 |
 
+## Related files
+
+- `src/components/Adds.jsx`
+- `src/components/AddsTwo.jsx`
+- `src/components/Apps.jsx`
+- `src/components/BacktoTop.jsx`
+- `src/components/Banner.jsx`
+- `src/components/CheckOutForm.jsx`
+- `src/components/ClickOutside.jsx`
+- `src/components/Container.jsx`
+
