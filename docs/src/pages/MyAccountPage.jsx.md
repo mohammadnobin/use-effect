@@ -31,3 +31,14 @@ Source: `src/pages/MyAccountPage.jsx` (33 lines)
 | --- | --- | --- | --- |
 | 33 | 2 | 0 | 31 |
 
+## Related files
+
+- `src/pages/AboutPage.jsx`
+- `src/pages/CartPage.jsx`
+- `src/pages/CheckoutPage.jsx`
+- `src/pages/ContactsPage.jsx`
+- `src/pages/ErrorPage.jsx`
+- `src/pages/HomePage.jsx`
+- `src/pages/JournalPage.jsx`
+- `src/pages/LoginPage.jsx`
+
