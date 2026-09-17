@@ -15,3 +15,9 @@ Source: `src/Store.js` (8 lines)
 
 - `src/main.jsx`
 
+## Stats
+
+| Lines | Blank | Comment | Code |
+| --- | --- | --- | --- |
+| 8 | 1 | 0 | 7 |
+
