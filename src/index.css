@@ -8,12 +8,12 @@
 	color: #fff;
 	text-shadow: none;
 }
-/* ----------------Slick active  start----------------------- */
+/* ----------------Slick active  start--------------------- */
 .slick-dots .slick-active div{
     border-color:#222 !important;
     color: #222 !important;
 }
-/* ----------------Slick active  end----------------------- */
+/* ----------------Slick active  end--------------------- */
 .nothing{
     animation: ami 0.5s;
     -webkit-animation: ami 0.5s;
